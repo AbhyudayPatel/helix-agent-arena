@@ -1,0 +1,154 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: 50e1ac9_3 | solved=False | steps=15 errors=1 recoveries=0"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: decompose into subgoals"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.85 plan"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'G ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: Let me discover Spotify APIs."];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: print(apis.api_docs.show_api_description ...[+23]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: [
+ {
+  'name': 'show_account',
+  'descri ...[+11]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: Let me see the full list and login doc."];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: descs = apis.api_docs.show_api_descripti ...[+23]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: show_account - Show your account informa ...[+11]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: Let me check login doc.
+
+
+user Execution ...[+29]"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: r = apis.spotify.login(username='ed_wils ...[+23]"];
+  o3 [shape=box, fillcolor="#bbf7d0", label="o3: {
+ 'access_token': 'eyJhbGciOiJIUzI1NiIs ...[+10]"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: Now check docs for the library APIs I ne ...[+3]"];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: for a in ['show_liked_songs','show_liked ...[+23]"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: ==== show_liked_songs
+{
+ 'app_name': 'sp ...[+11]"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: Liked songs don't include genre/play_cou ...[+29]"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: for a in ['show_album','show_playlist_li ...[+23]"];
+  o5 [shape=box, fillcolor="#bbf7d0", label="o5: ==== show_album
+{
+ 'app_name': 'spotify' ...[+11]"];
+  s6 [shape=box, fillcolor="#e2e8f0", label="s6: S6: progressed"];
+  d7 [shape=ellipse, fillcolor="#e2e8f0", label="d7: Let me see show_song and show_song_priva ...[+28]"];
+  a6 [shape=note, fillcolor="#e2e8f0", label="a6: for a in ['show_playlist','show_song','s ...[+20]"];
+  o6 [shape=box, fillcolor="#bbf7d0", label="o6: ==== show_playlist
+{
+ 'app_name': 'spoti ...[+11]"];
+  s7 [shape=box, fillcolor="#e2e8f0", label="s7: S7: progressed"];
+  d8 [shape=ellipse, fillcolor="#e2e8f0", label="d8: `show_song` gives genre and play_count.  ...[+29]"];
+  a7 [shape=note, fillcolor="#e2e8f0", label="a7: def fetch_all(fn, **kw):"];
+  o7 [shape=box, fillcolor="#bbf7d0", label="o7: liked songs: 24
+unique from liked: 24"];
+  s8 [shape=box, fillcolor="#e2e8f0", label="s8: S8: progressed"];
+  d9 [shape=ellipse, fillcolor="#e2e8f0", label="d9: Now albums. Fetch liked albums, then eac ...[+16]"];
+  a8 [shape=note, fillcolor="#e2e8f0", label="a8: liked_albums = fetch_all(apis.spotify.sh ...[+23]"];
+  o8 [shape=box, fillcolor="#bbf7d0", label="o8: liked albums: 10
+unique after albums: 65"];
+  s9 [shape=box, fillcolor="#e2e8f0", label="s9: S9: progressed"];
+  d10 [shape=ellipse, fillcolor="#e2e8f0", label="d10: Now playlists (both public and private). ...[+29]"];
+  a9 [shape=note, fillcolor="#e2e8f0", label="a9: pls = fetch_all(apis.spotify.show_playli ...[+23]"];
+  o9 [shape=box, fillcolor="#bbf7d0", label="o9: playlists: 6
+unique after playlists: 96"];
+  s10 [shape=box, fillcolor="#e2e8f0", label="s10: S10: progressed"];
+  d11 [shape=ellipse, fillcolor="#e2e8f0", label="d11: Now fetch each song's genre and play_cou ...[+30]"];
+  a10 [shape=note, fillcolor="#e2e8f0", label="a10: print(Counter(s['genre'] for s in song_d ...[+17]"];
+  o10 [shape=box, fillcolor="#fecaca", label="o10: error: NameError"];
+  s11 [shape=box, fillcolor="#fecaca", label="s11: S11: error"];
+  d12 [shape=ellipse, fillcolor="#e2e8f0", label="d12: The previous block didn't run as expecte ...[+29]"];
+  a11 [shape=note, fillcolor="#e2e8f0", label="a11: song_details = {}"];
+  o11 [shape=box, fillcolor="#bbf7d0", label="o11: fetched 96
+{
+ 'EDM': 15,
+ 'R&B': 20,
+ 'i ...[+10]"];
+  s12 [shape=box, fillcolor="#e2e8f0", label="s12: S12: progressed"];
+  d13 [shape=ellipse, fillcolor="#e2e8f0", label="d13: Only 3 indie songs. Let me list them sor ...[+18]"];
+  a12 [shape=note, fillcolor="#e2e8f0", label="a12: indie = [s for s in song_details.values( ...[+23]"];
+  o12 [shape=box, fillcolor="#bbf7d0", label="o12: 926 | Lost in the Embrace of Night
+858 | ...[+10]"];
+  s13 [shape=box, fillcolor="#e2e8f0", label="s13: S13: progressed"];
+  d14 [shape=ellipse, fillcolor="#e2e8f0", label="d14: Exactly 3 indie songs across all sources ...[+29]"];
+  a13 [shape=note, fillcolor="#e2e8f0", label="a13: print(apis.supervisor.complete_task(answ ...[+23]"];
+  o13 [shape=box, fillcolor="#bbf7d0", label="o13: {'message': 'Marked the active task comp ...[+8]"];
+  s14 [shape=box, fillcolor="#e2e8f0", label="s14: S14: progressed"];
+  d15 [shape=ellipse, fillcolor="#e2e8f0", label="d15: Verification: 3 sources pooled and dedup ...[+29]"];
+  a14 [shape=note, fillcolor="#e2e8f0", label="a14: print(apis.supervisor.show_active_task() ...[+1]"];
+  o14 [shape=box, fillcolor="#bbf7d0", label="o14: {
+ 'instruction': 'Give me a comma-separ ...[+10]"];
+  s15 [shape=box, fillcolor="#e2e8f0", label="s15: S15: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+  s6 -> d7 [label="decides", color="#94a3b8"];
+  d7 -> a6 [label="acts", color="#94a3b8"];
+  a6 -> o6 [label="yields", color="#94a3b8"];
+  o6 -> s7 [label="transitions", color="#64748b"];
+  s7 -> d8 [label="decides", color="#94a3b8"];
+  d8 -> a7 [label="acts", color="#94a3b8"];
+  a7 -> o7 [label="yields", color="#94a3b8"];
+  o7 -> s8 [label="transitions", color="#64748b"];
+  s8 -> d9 [label="decides", color="#94a3b8"];
+  d9 -> a8 [label="acts", color="#94a3b8"];
+  a8 -> o8 [label="yields", color="#94a3b8"];
+  o8 -> s9 [label="transitions", color="#64748b"];
+  s9 -> d10 [label="decides", color="#94a3b8"];
+  d10 -> a9 [label="acts", color="#94a3b8"];
+  a9 -> o9 [label="yields", color="#94a3b8"];
+  o9 -> s10 [label="transitions", color="#64748b"];
+  s10 -> d11 [label="decides", color="#94a3b8"];
+  d11 -> a10 [label="acts", color="#94a3b8"];
+  a10 -> o10 [label="yields", color="#94a3b8"];
+  o10 -> s11 [label="transitions", color="#64748b"];
+  s11 -> d12 [label="decides", color="#94a3b8"];
+  d12 -> a11 [label="acts", color="#94a3b8"];
+  a11 -> o11 [label="yields", color="#94a3b8"];
+  o11 -> s12 [label="transitions", color="#64748b"];
+  s12 -> d13 [label="decides", color="#94a3b8"];
+  d13 -> a12 [label="acts", color="#94a3b8"];
+  a12 -> o12 [label="yields", color="#94a3b8"];
+  o12 -> s13 [label="transitions", color="#64748b"];
+  s13 -> d14 [label="decides", color="#94a3b8"];
+  d14 -> a13 [label="acts", color="#94a3b8"];
+  a13 -> o13 [label="yields", color="#94a3b8"];
+  o13 -> s14 [label="transitions", color="#64748b"];
+  s14 -> d15 [label="decides", color="#94a3b8"];
+  d15 -> a14 [label="acts", color="#94a3b8"];
+  a14 -> o14 [label="yields", color="#94a3b8"];
+  o14 -> s15 [label="transitions", color="#64748b"];
+}

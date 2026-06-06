@@ -1,0 +1,75 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: 23cf851_2 | solved=True | steps=6 errors=1 recoveries=0"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  m0 [shape=cylinder, fillcolor="#e2e8f0", label="m0: sim=0.93 How many likes did all Venmo tr ...[+18]"];
+  m1 [shape=cylinder, fillcolor="#e2e8f0", label="m1: sim=0.71 Like all the venmo transactions ...[+18]"];
+  m2 [shape=cylinder, fillcolor="#e2e8f0", label="m2: sim=0.69 Like all the venmo transactions ...[+18]"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.55: Authenticate with Venmo, fetch a ...[+14]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.80: Retrieve the full transaction li ...[+14]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.50: Query the Venmo social/feed endp ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'H ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: act"];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: vlogin = apis.venmo.login(username='paul ...[+23]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: access_token | True | None | Access toke ...[+11]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: act"];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: print(json.dumps(doc['response_schemas'] ...[+12]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: {
+ 'success': [
+  {
+   'transaction_id': ...[+10]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: act"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: received = []"];
+  o3 [shape=box, fillcolor="#fecaca", label="o3: error: Error"];
+  s4 [shape=box, fillcolor="#fecaca", label="s4: S4: error"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: act"];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: received = []"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: count: 47
+total likes: 79
+1023 2023-01-0 ...[+11]"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: All 47 received transactions in 2023 col ...[+28]"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: apis.supervisor.complete_task(answer=79)"];
+  o5 [shape=box, fillcolor="#fde68a", label="o5: ok (no output)"];
+  s6 [shape=box, fillcolor="#a7f3d0", label="s6: S6: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  m0 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  m1 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  m2 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+}

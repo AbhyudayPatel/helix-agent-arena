@@ -1,0 +1,21 @@
+[
+  {
+    "task_id": "82e2fac_1",
+    "split": "train",
+    "instruction": "What is the title of the most-liked song in my Spotify playlists.",
+    "solved": false,
+    "num_steps": 9,
+    "num_errors": 2,
+    "num_recoveries": 1,
+    "recovery_rate": 0.5,
+    "world_model_accuracy": 0.5,
+    "total_cost_usd": 0.7993,
+    "total_latency_s": 3.12,
+    "wall_time_s": 64.1,
+    "evaluation": {
+      "success": false,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  }
+]

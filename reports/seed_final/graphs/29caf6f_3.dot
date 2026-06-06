@@ -1,0 +1,120 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: 29caf6f_3 | solved=False | steps=11 errors=4 recoveries=3"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.25: Read Leslie's text message via p ...[+14]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.45: Retrieve all Simple Note entries ...[+14]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.35: Identify Leslie's contact and me ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'L ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: Let me check the phone and simple_note A ...[+4]"];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: print('=== PHONE APIS ==='); print(apis. ...[+23]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: === PHONE APIS ===
+[
+ {
+  'name': 'show_ ...[+11]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: Let me see the full phone API list and m ...[+20]"];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: print(apis.api_docs.search_api_docs(quer ...[+23]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: [
+ {
+  'app_name': 'phone',
+  'api_name' ...[+11]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: Now let me log into phone and find Lesli ...[+29]"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o3 [shape=box, fillcolor="#bbf7d0", label="o3: {
+ 'app_name': 'phone',
+ 'api_name': 'lo ...[+11]"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: act"];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: plogin = apis.phone.login(username='2444 ...[+23]"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ ...[+11]"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: Let me find Leslie's contact and their m ...[+29]"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: msgs = apis.phone.search_text_messages(a ...[+23]"];
+  o5 [shape=box, fillcolor="#fecaca", label="o5: error: Error"];
+  s6 [shape=box, fillcolor="#fecaca", label="s6: S6: error"];
+  d7 [shape=ellipse, fillcolor="#e2e8f0", label="d7: The contact's number isn't a registered  ...[+29]"];
+  a6 [shape=note, fillcolor="#e2e8f0", label="a6: print(len(all_msgs))"];
+  o6 [shape=box, fillcolor="#fecaca", label="o6: error: NameError"];
+  s7 [shape=box, fillcolor="#fecaca", label="s7: S7: error"];
+  d8 [shape=ellipse, fillcolor="#fdba74", label="d8: act"];
+  a7 [shape=note, fillcolor="#e2e8f0", label="a7: all_msgs = []"];
+  o7 [shape=box, fillcolor="#bbf7d0", label="o7: 168
+{
+ 'text_message_id': 16795,
+ 'sende ...[+12]"];
+  s8 [shape=box, fillcolor="#e2e8f0", label="s8: S8: progressed"];
+  d9 [shape=ellipse, fillcolor="#e2e8f0", label="d9: Leslie Ball (7873383923) requested movie ...[+30]"];
+  a8 [shape=note, fillcolor="#e2e8f0", label="a8: text = content['content']"];
+  o8 [shape=box, fillcolor="#fecaca", label="o8: error: NameError"];
+  s9 [shape=box, fillcolor="#fecaca", label="s9: S9: error"];
+  d10 [shape=ellipse, fillcolor="#fdba74", label="d10: user Execution output:
+
+Continue with yo ...[+29]"];
+  a9 [shape=note, fillcolor="#e2e8f0", label="a9: print(pj)"];
+  o9 [shape=box, fillcolor="#fecaca", label="o9: error: NameError"];
+  s10 [shape=box, fillcolor="#fecaca", label="s10: S10: error"];
+  d11 [shape=ellipse, fillcolor="#fdba74", label="d11: The assignment cell seems to print only  ...[+30]"];
+  a10 [shape=note, fillcolor="#e2e8f0", label="a10: apis.supervisor.complete_task(answer='Th ...[+23]"];
+  o10 [shape=box, fillcolor="#fde68a", label="o10: ok (no output)"];
+  s11 [shape=box, fillcolor="#e2e8f0", label="s11: S11: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+  s6 -> d7 [label="decides", color="#94a3b8"];
+  d7 -> a6 [label="acts", color="#94a3b8"];
+  a6 -> o6 [label="yields", color="#94a3b8"];
+  o6 -> s7 [label="transitions", color="#64748b"];
+  s7 -> d8 [label="decides", color="#94a3b8"];
+  o6 -> d8 [label="recovers", style=dashed, color="#ef4444"];
+  d8 -> a7 [label="acts", color="#94a3b8"];
+  a7 -> o7 [label="yields", color="#94a3b8"];
+  o7 -> s8 [label="transitions", color="#64748b"];
+  s8 -> d9 [label="decides", color="#94a3b8"];
+  d9 -> a8 [label="acts", color="#94a3b8"];
+  a8 -> o8 [label="yields", color="#94a3b8"];
+  o8 -> s9 [label="transitions", color="#64748b"];
+  s9 -> d10 [label="decides", color="#94a3b8"];
+  o8 -> d10 [label="recovers", style=dashed, color="#ef4444"];
+  d10 -> a9 [label="acts", color="#94a3b8"];
+  a9 -> o9 [label="yields", color="#94a3b8"];
+  o9 -> s10 [label="transitions", color="#64748b"];
+  s10 -> d11 [label="decides", color="#94a3b8"];
+  o9 -> d11 [label="recovers", style=dashed, color="#ef4444"];
+  d11 -> a10 [label="acts", color="#94a3b8"];
+  a10 -> o10 [label="yields", color="#94a3b8"];
+  o10 -> s11 [label="transitions", color="#64748b"];
+}

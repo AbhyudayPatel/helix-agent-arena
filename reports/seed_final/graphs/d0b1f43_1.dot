@@ -1,0 +1,176 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: d0b1f43_1 | solved=False | steps=16 errors=2 recoveries=3"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.35: Identify roommates from the phon ...[+13]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.72: Pull all Venmo transactions sinc ...[+14]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.58: Cross-reference roommate identit ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'H ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: I need to find roommates. Roommates like ...[+29]"];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: print(apis.api_docs.show_api_description ...[+20]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: [
+ {
+  'name': 'show_account',
+  'descri ...[+11]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: act"];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: print(apis.api_docs.show_api_description ...[+23]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: [
+ {
+  'name': 'show_venmo_balance',
+  ' ...[+11]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: I need to find friends/roommates. Let me ...[+29]"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: print(apis.api_docs.show_api_description ...[+23]"];
+  o3 [shape=box, fillcolor="#bbf7d0", label="o3: [
+ {
+  'name': 'create_transaction_comme ...[+11]"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: act"];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: {
+ 'app_name': 'venmo',
+ 'api_name': 'lo ...[+10]"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: act"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: login = apis.venmo.login(username='ed_wi ...[+23]"];
+  o5 [shape=box, fillcolor="#bbf7d0", label="o5: eyJhbGciOi ...ok
+{
+ 'app_name': 'venmo', ...[+11]"];
+  s6 [shape=box, fillcolor="#e2e8f0", label="s6: S6: progressed"];
+  d7 [shape=ellipse, fillcolor="#e2e8f0", label="d7: I need to identify roommates. Let me che ...[+30]"];
+  a6 [shape=note, fillcolor="#e2e8f0", label="a6: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o6 [shape=box, fillcolor="#bbf7d0", label="o6: [
+ {
+  'name': 'min_like_count',
+  'type ...[+11]"];
+  s7 [shape=box, fillcolor="#e2e8f0", label="s7: S7: progressed"];
+  d8 [shape=ellipse, fillcolor="#e2e8f0", label="d8: I now need to identify who my roommates  ...[+29]"];
+  a7 [shape=note, fillcolor="#e2e8f0", label="a7: print(apis.api_docs.show_api_description ...[+20]"];
+  o7 [shape=box, fillcolor="#bbf7d0", label="o7: [
+ {
+  'name': 'show_account',
+  'descri ...[+11]"];
+  s8 [shape=box, fillcolor="#e2e8f0", label="s8: S8: progressed"];
+  d9 [shape=ellipse, fillcolor="#e2e8f0", label="d9: Phone contacts have relationships. Let m ...[+29]"];
+  a8 [shape=note, fillcolor="#e2e8f0", label="a8: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o8 [shape=box, fillcolor="#bbf7d0", label="o8: {
+ 'app_name': 'phone',
+ 'api_name': 'se ...[+11]"];
+  s9 [shape=box, fillcolor="#e2e8f0", label="s9: S9: progressed"];
+  d10 [shape=ellipse, fillcolor="#e2e8f0", label="d10: act"];
+  a9 [shape=note, fillcolor="#e2e8f0", label="a9: roommates = []"];
+  o9 [shape=box, fillcolor="#fecaca", label="o9: error: NameError"];
+  s10 [shape=box, fillcolor="#fecaca", label="s10: S10: error"];
+  d11 [shape=ellipse, fillcolor="#e2e8f0", label="d11: The phone token was set in a turn that w ...[+29]"];
+  a10 [shape=note, fillcolor="#e2e8f0", label="a10: plogin = apis.phone.login(username='8506 ...[+23]"];
+  o10 [shape=box, fillcolor="#bbf7d0", label="o10: {
+ 'contact_id': 1502,
+ 'first_name': 'C ...[+11]"];
+  s11 [shape=box, fillcolor="#e2e8f0", label="s11: S11: progressed"];
+  d12 [shape=ellipse, fillcolor="#e2e8f0", label="d12: 3 roommates found. Let me get their emai ...[+30]"];
+  a11 [shape=note, fillcolor="#e2e8f0", label="a11: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o11 [shape=box, fillcolor="#bbf7d0", label="o11: {
+ 'success': [
+  {
+   'transaction_id': ...[+10]"];
+  s12 [shape=box, fillcolor="#e2e8f0", label="s12: S12: progressed"];
+  d13 [shape=ellipse, fillcolor="#e2e8f0", label="d13: user Execution output:
+
+Continue with yo ...[+29]"];
+  a12 [shape=note, fillcolor="#e2e8f0", label="a12: login = apis.venmo.login(username='ed_wi ...[+23]"];
+  o12 [shape=box, fillcolor="#fecaca", label="o12: error: NameError"];
+  s13 [shape=box, fillcolor="#fecaca", label="s13: S13: error"];
+  d14 [shape=ellipse, fillcolor="#fdba74", label="d14: I'll write one fully self-contained bloc ...[+2]"];
+  a13 [shape=note, fillcolor="#e2e8f0", label="a13: # 1) phone -> roommate emails"];
+  o13 [shape=box, fillcolor="#bbf7d0", label="o13: roommate_emails: ['connorbrow@gmail.com' ...[+11]"];
+  s14 [shape=box, fillcolor="#e2e8f0", label="s14: S14: progressed"];
+  d15 [shape=ellipse, fillcolor="#fdba74", label="d15: The output was just truncated by display ...[+29]"];
+  a14 [shape=note, fillcolor="#e2e8f0", label="a14: print('Num transactions:', len(details))"];
+  o14 [shape=box, fillcolor="#bbf7d0", label="o14: Num transactions: 22
+TOTAL: 1068.0
+{'con ...[+9]"];
+  s15 [shape=box, fillcolor="#e2e8f0", label="s15: S15: progressed"];
+  d16 [shape=ellipse, fillcolor="#fdba74", label="d16: The environment date is 2023-05-18, so ' ...[+30]"];
+  a15 [shape=note, fillcolor="#e2e8f0", label="a15: apis.supervisor.complete_task(answer='$1 ...[+8]"];
+  o15 [shape=box, fillcolor="#fde68a", label="o15: ok (no output)"];
+  s16 [shape=box, fillcolor="#e2e8f0", label="s16: S16: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+  s6 -> d7 [label="decides", color="#94a3b8"];
+  d7 -> a6 [label="acts", color="#94a3b8"];
+  a6 -> o6 [label="yields", color="#94a3b8"];
+  o6 -> s7 [label="transitions", color="#64748b"];
+  s7 -> d8 [label="decides", color="#94a3b8"];
+  d8 -> a7 [label="acts", color="#94a3b8"];
+  a7 -> o7 [label="yields", color="#94a3b8"];
+  o7 -> s8 [label="transitions", color="#64748b"];
+  s8 -> d9 [label="decides", color="#94a3b8"];
+  d9 -> a8 [label="acts", color="#94a3b8"];
+  a8 -> o8 [label="yields", color="#94a3b8"];
+  o8 -> s9 [label="transitions", color="#64748b"];
+  s9 -> d10 [label="decides", color="#94a3b8"];
+  d10 -> a9 [label="acts", color="#94a3b8"];
+  a9 -> o9 [label="yields", color="#94a3b8"];
+  o9 -> s10 [label="transitions", color="#64748b"];
+  s10 -> d11 [label="decides", color="#94a3b8"];
+  d11 -> a10 [label="acts", color="#94a3b8"];
+  a10 -> o10 [label="yields", color="#94a3b8"];
+  o10 -> s11 [label="transitions", color="#64748b"];
+  s11 -> d12 [label="decides", color="#94a3b8"];
+  d12 -> a11 [label="acts", color="#94a3b8"];
+  a11 -> o11 [label="yields", color="#94a3b8"];
+  o11 -> s12 [label="transitions", color="#64748b"];
+  s12 -> d13 [label="decides", color="#94a3b8"];
+  d13 -> a12 [label="acts", color="#94a3b8"];
+  a12 -> o12 [label="yields", color="#94a3b8"];
+  o12 -> s13 [label="transitions", color="#64748b"];
+  s13 -> d14 [label="decides", color="#94a3b8"];
+  o12 -> d14 [label="recovers", style=dashed, color="#ef4444"];
+  d14 -> a13 [label="acts", color="#94a3b8"];
+  a13 -> o13 [label="yields", color="#94a3b8"];
+  o13 -> s14 [label="transitions", color="#64748b"];
+  s14 -> d15 [label="decides", color="#94a3b8"];
+  o13 -> d15 [label="recovers", style=dashed, color="#ef4444"];
+  d15 -> a14 [label="acts", color="#94a3b8"];
+  a14 -> o14 [label="yields", color="#94a3b8"];
+  o14 -> s15 [label="transitions", color="#64748b"];
+  s15 -> d16 [label="decides", color="#94a3b8"];
+  o14 -> d16 [label="recovers", style=dashed, color="#ef4444"];
+  d16 -> a15 [label="acts", color="#94a3b8"];
+  a15 -> o15 [label="yields", color="#94a3b8"];
+  o15 -> s16 [label="transitions", color="#64748b"];
+}

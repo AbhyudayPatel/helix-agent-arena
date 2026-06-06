@@ -1,0 +1,52 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: 82e2fac_2 | solved=False | steps=4 errors=0 recoveries=0"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.35: Authenticate with Spotify using  ...[+14]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.72: Query the api_docs for Spotify e ...[+14]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.58: Fetch the song library via Spoti ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'W ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: act"];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: {
+ 'app_name': 'spotify',
+ 'api_name': ' ...[+10]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: act"];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: login = apis.spotify.login(username='gle ...[+23]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ ...[+10]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: Execution output:
+
+Continue with your ne ...[+30]"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: apis.supervisor.complete_task(answer='Lo ...[+16]"];
+  o3 [shape=box, fillcolor="#fde68a", label="o3: ok (no output)"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+}

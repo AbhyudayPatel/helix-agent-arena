@@ -1,0 +1,233 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: afc0fce_3 | solved=True | steps=22 errors=3 recoveries=9"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.35: Identify roommates from phone co ...[+14]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.25: Pull all recent Venmo payments r ...[+14]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.72: Query Venmo API for incoming pay ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'A ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: I need to find roommates. Let me check v ...[+29]"];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: print(apis.api_docs.show_api_description ...[+20]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: [
+ {
+  'name': 'show_account',
+  'descri ...[+11]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: act"];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: for d in apis.api_docs.show_api_descript ...[+23]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: show_account - Show your account informa ...[+11]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: act"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: for d in apis.api_docs.show_api_descript ...[+23]"];
+  o3 [shape=box, fillcolor="#bbf7d0", label="o3: show_account - Show your account informa ...[+11]"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: The output is truncated. Let me see the  ...[+29]"];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: names = [d['name'] for d in apis.api_doc ...[+23]"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: [
+ 'show_bank_transfer_history',
+ 'downl ...[+11]"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: Phone has `show_contact_relationships` — ...[+29]"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: ph = apis.phone.login(username='22542137 ...[+23]"];
+  o5 [shape=box, fillcolor="#bbf7d0", label="o5: {
+ 'access_token': 'eyJhbGciOiJIUzI1NiIs ...[+10]"];
+  s6 [shape=box, fillcolor="#e2e8f0", label="s6: S6: progressed"];
+  d7 [shape=ellipse, fillcolor="#e2e8f0", label="d7: user Execution output:
+
+Continue with yo ...[+29]"];
+  a6 [shape=note, fillcolor="#e2e8f0", label="a6: print(apis.phone.show_contact_relationsh ...[+23]"];
+  o6 [shape=box, fillcolor="#fecaca", label="o6: error: NameError"];
+  s7 [shape=box, fillcolor="#fecaca", label="s7: S7: error"];
+  d8 [shape=ellipse, fillcolor="#e2e8f0", label="d8: The previous block failed because I used ...[+29]"];
+  a7 [shape=note, fillcolor="#e2e8f0", label="a7: ph_token = ph['access_token']"];
+  o7 [shape=box, fillcolor="#bbf7d0", label="o7: [
+ 'brother',
+ 'coworker',
+ 'father',
+ ' ...[+9]"];
+  s8 [shape=box, fillcolor="#e2e8f0", label="s8: S8: progressed"];
+  d9 [shape=ellipse, fillcolor="#e2e8f0", label="d9: 'roommate' is a valid relationship. Let  ...[+29]"];
+  a8 [shape=note, fillcolor="#e2e8f0", label="a8: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o8 [shape=box, fillcolor="#bbf7d0", label="o8: {
+ 'app_name': 'phone',
+ 'api_name': 'se ...[+11]"];
+  s9 [shape=box, fillcolor="#e2e8f0", label="s9: S9: progressed"];
+  d10 [shape=ellipse, fillcolor="#e2e8f0", label="d10: Execution output:
+
+Continue with your ne ...[+30]"];
+  a9 [shape=note, fillcolor="#e2e8f0", label="a9: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o9 [shape=box, fillcolor="#bbf7d0", label="o9: {
+ 'app_name': 'venmo',
+ 'api_name': 'sh ...[+11]"];
+  s10 [shape=box, fillcolor="#e2e8f0", label="s10: S10: progressed"];
+  d11 [shape=ellipse, fillcolor="#e2e8f0", label="d11: act"];
+  a10 [shape=note, fillcolor="#e2e8f0", label="a10: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o10 [shape=box, fillcolor="#bbf7d0", label="o10: [
+ {
+  'name': 'max_like_count',
+  'type ...[+11]"];
+  s11 [shape=box, fillcolor="#e2e8f0", label="s11: S11: progressed"];
+  d12 [shape=ellipse, fillcolor="#e2e8f0", label="d12: The date range is last 10 days including ...[+30]"];
+  a11 [shape=note, fillcolor="#e2e8f0", label="a11: txns = []"];
+  o11 [shape=box, fillcolor="#fecaca", label="o11: error: Error"];
+  s12 [shape=box, fillcolor="#fecaca", label="s12: S12: error"];
+  d13 [shape=ellipse, fillcolor="#e2e8f0", label="d13: act"];
+  a12 [shape=note, fillcolor="#e2e8f0", label="a12: txns = []"];
+  o12 [shape=box, fillcolor="#fecaca", label="o12: error: Error"];
+  s13 [shape=box, fillcolor="#fecaca", label="s13: S13: error"];
+  d14 [shape=ellipse, fillcolor="#fdba74", label="d14: Olivia's venmo email may differ from con ...[+29]"];
+  a13 [shape=note, fillcolor="#e2e8f0", label="a13: txns = []"];
+  o13 [shape=box, fillcolor="#bbf7d0", label="o13: 36
+8227 2023-05-24T11:11:13 {'name': 'Je ...[+11]"];
+  s14 [shape=box, fillcolor="#e2e8f0", label="s14: S14: progressed"];
+  d15 [shape=ellipse, fillcolor="#fdba74", label="d15: The roommate is Olivia Mc Coy with conta ...[+30]"];
+  a14 [shape=note, fillcolor="#e2e8f0", label="a14: senders = {t['sender']['email']: t['send ...[+23]"];
+  o14 [shape=box, fillcolor="#bbf7d0", label="o14: Jeffrey Smith jefsmith@gmail.com
+Glenn B ...[+11]"];
+  s15 [shape=box, fillcolor="#e2e8f0", label="s15: S15: progressed"];
+  d16 [shape=ellipse, fillcolor="#fdba74", label="d16: My roommate is Olivia Mc Coy (from MY ph ...[+30]"];
+  a15 [shape=note, fillcolor="#e2e8f0", label="a15: print('--- search_friends Olivia ---')"];
+  o15 [shape=box, fillcolor="#bbf7d0", label="o15: --- search_friends Olivia ---
+[
+ {
+  'fi ...[+11]"];
+  s16 [shape=box, fillcolor="#e2e8f0", label="s16: S16: progressed"];
+  d17 [shape=ellipse, fillcolor="#fdba74", label="d17: The roommate Olivia Mc Coy is in my phon ...[+30]"];
+  a16 [shape=note, fillcolor="#e2e8f0", label="a16: all_contacts = []"];
+  o16 [shape=box, fillcolor="#bbf7d0", label="o16: 24
+None | None | None
+None | None | None ...[+10]"];
+  s17 [shape=box, fillcolor="#e2e8f0", label="s17: S17: progressed"];
+  d18 [shape=ellipse, fillcolor="#fdba74", label="d18: The unfiltered search_contacts returns r ...[+29]"];
+  a17 [shape=note, fillcolor="#e2e8f0", label="a17: print(all_contacts[0])"];
+  o17 [shape=box, fillcolor="#bbf7d0", label="o17: {
+ 'contact_id': 264,
+ 'first_name': 'Ad ...[+11]"];
+  s18 [shape=box, fillcolor="#e2e8f0", label="s18: S18: progressed"];
+  d19 [shape=ellipse, fillcolor="#fdba74", label="d19: Now I have multiple roommates. My earlie ...[+29]"];
+  a18 [shape=note, fillcolor="#e2e8f0", label="a18: roommate_emails = set()"];
+  o18 [shape=box, fillcolor="#bbf7d0", label="o18: {'nan_ritt@gmail.com', 'kathrynmaldonado ...[+10]"];
+  s19 [shape=box, fillcolor="#e2e8f0", label="s19: S19: progressed"];
+  d20 [shape=ellipse, fillcolor="#fdba74", label="d20: 8 transactions matched. Let me verify th ...[+29]"];
+  a19 [shape=note, fillcolor="#e2e8f0", label="a19: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o19 [shape=box, fillcolor="#bbf7d0", label="o19: {
+ 'app_name': 'venmo',
+ 'api_name': 'cr ...[+11]"];
+  s20 [shape=box, fillcolor="#e2e8f0", label="s20: S20: progressed"];
+  d21 [shape=ellipse, fillcolor="#fdba74", label="d21: Now executing the comment and like for e ...[+28]"];
+  a20 [shape=note, fillcolor="#e2e8f0", label="a20: for t in matched:"];
+  o20 [shape=box, fillcolor="#bbf7d0", label="o20: 8319 {'message': 'Transaction comment cr ...[+10]"];
+  s21 [shape=box, fillcolor="#e2e8f0", label="s21: S21: progressed"];
+  d22 [shape=ellipse, fillcolor="#fdba74", label="d22: All 8 roommate transactions were comment ...[+29]"];
+  a21 [shape=note, fillcolor="#e2e8f0", label="a21: apis.supervisor.complete_task(status='su ...[+7]"];
+  o21 [shape=box, fillcolor="#fde68a", label="o21: ok (no output)"];
+  s22 [shape=box, fillcolor="#a7f3d0", label="s22: S22: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+  s6 -> d7 [label="decides", color="#94a3b8"];
+  d7 -> a6 [label="acts", color="#94a3b8"];
+  a6 -> o6 [label="yields", color="#94a3b8"];
+  o6 -> s7 [label="transitions", color="#64748b"];
+  s7 -> d8 [label="decides", color="#94a3b8"];
+  d8 -> a7 [label="acts", color="#94a3b8"];
+  a7 -> o7 [label="yields", color="#94a3b8"];
+  o7 -> s8 [label="transitions", color="#64748b"];
+  s8 -> d9 [label="decides", color="#94a3b8"];
+  d9 -> a8 [label="acts", color="#94a3b8"];
+  a8 -> o8 [label="yields", color="#94a3b8"];
+  o8 -> s9 [label="transitions", color="#64748b"];
+  s9 -> d10 [label="decides", color="#94a3b8"];
+  d10 -> a9 [label="acts", color="#94a3b8"];
+  a9 -> o9 [label="yields", color="#94a3b8"];
+  o9 -> s10 [label="transitions", color="#64748b"];
+  s10 -> d11 [label="decides", color="#94a3b8"];
+  d11 -> a10 [label="acts", color="#94a3b8"];
+  a10 -> o10 [label="yields", color="#94a3b8"];
+  o10 -> s11 [label="transitions", color="#64748b"];
+  s11 -> d12 [label="decides", color="#94a3b8"];
+  d12 -> a11 [label="acts", color="#94a3b8"];
+  a11 -> o11 [label="yields", color="#94a3b8"];
+  o11 -> s12 [label="transitions", color="#64748b"];
+  s12 -> d13 [label="decides", color="#94a3b8"];
+  d13 -> a12 [label="acts", color="#94a3b8"];
+  a12 -> o12 [label="yields", color="#94a3b8"];
+  o12 -> s13 [label="transitions", color="#64748b"];
+  s13 -> d14 [label="decides", color="#94a3b8"];
+  o12 -> d14 [label="recovers", style=dashed, color="#ef4444"];
+  d14 -> a13 [label="acts", color="#94a3b8"];
+  a13 -> o13 [label="yields", color="#94a3b8"];
+  o13 -> s14 [label="transitions", color="#64748b"];
+  s14 -> d15 [label="decides", color="#94a3b8"];
+  o13 -> d15 [label="recovers", style=dashed, color="#ef4444"];
+  d15 -> a14 [label="acts", color="#94a3b8"];
+  a14 -> o14 [label="yields", color="#94a3b8"];
+  o14 -> s15 [label="transitions", color="#64748b"];
+  s15 -> d16 [label="decides", color="#94a3b8"];
+  o14 -> d16 [label="recovers", style=dashed, color="#ef4444"];
+  d16 -> a15 [label="acts", color="#94a3b8"];
+  a15 -> o15 [label="yields", color="#94a3b8"];
+  o15 -> s16 [label="transitions", color="#64748b"];
+  s16 -> d17 [label="decides", color="#94a3b8"];
+  o15 -> d17 [label="recovers", style=dashed, color="#ef4444"];
+  d17 -> a16 [label="acts", color="#94a3b8"];
+  a16 -> o16 [label="yields", color="#94a3b8"];
+  o16 -> s17 [label="transitions", color="#64748b"];
+  s17 -> d18 [label="decides", color="#94a3b8"];
+  o16 -> d18 [label="recovers", style=dashed, color="#ef4444"];
+  d18 -> a17 [label="acts", color="#94a3b8"];
+  a17 -> o17 [label="yields", color="#94a3b8"];
+  o17 -> s18 [label="transitions", color="#64748b"];
+  s18 -> d19 [label="decides", color="#94a3b8"];
+  o17 -> d19 [label="recovers", style=dashed, color="#ef4444"];
+  d19 -> a18 [label="acts", color="#94a3b8"];
+  a18 -> o18 [label="yields", color="#94a3b8"];
+  o18 -> s19 [label="transitions", color="#64748b"];
+  s19 -> d20 [label="decides", color="#94a3b8"];
+  o18 -> d20 [label="recovers", style=dashed, color="#ef4444"];
+  d20 -> a19 [label="acts", color="#94a3b8"];
+  a19 -> o19 [label="yields", color="#94a3b8"];
+  o19 -> s20 [label="transitions", color="#64748b"];
+  s20 -> d21 [label="decides", color="#94a3b8"];
+  o19 -> d21 [label="recovers", style=dashed, color="#ef4444"];
+  d21 -> a20 [label="acts", color="#94a3b8"];
+  a20 -> o20 [label="yields", color="#94a3b8"];
+  o20 -> s21 [label="transitions", color="#64748b"];
+  s21 -> d22 [label="decides", color="#94a3b8"];
+  o20 -> d22 [label="recovers", style=dashed, color="#ef4444"];
+  d22 -> a21 [label="acts", color="#94a3b8"];
+  a21 -> o21 [label="yields", color="#94a3b8"];
+  o21 -> s22 [label="transitions", color="#64748b"];
+}

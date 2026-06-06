@@ -1,0 +1,382 @@
+[
+  {
+    "task_id": "50e1ac9_1",
+    "split": "dev",
+    "instruction": "Give me a comma-separated list of top 4 most played r&b song titles from across my Spotify song, album and playlist libraries.",
+    "solved": false,
+    "num_steps": 25,
+    "num_errors": 3,
+    "num_recoveries": 9,
+    "recovery_rate": 0.333,
+    "world_model_accuracy": 0.8,
+    "total_cost_usd": 3.8464,
+    "total_latency_s": 3.48,
+    "wall_time_s": 201.35,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "50e1ac9_2",
+    "split": "dev",
+    "instruction": "Give me a comma-separated list of top 6 most played edm song titles from across my Spotify song, album and playlist libraries.",
+    "solved": false,
+    "num_steps": 16,
+    "num_errors": 0,
+    "num_recoveries": 0,
+    "recovery_rate": null,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 1.6423,
+    "total_latency_s": 1.22,
+    "wall_time_s": 60.09,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "50e1ac9_3",
+    "split": "dev",
+    "instruction": "Give me a comma-separated list of top 3 most played indie song titles from across my Spotify song, album and playlist libraries.",
+    "solved": true,
+    "num_steps": 23,
+    "num_errors": 6,
+    "num_recoveries": 6,
+    "recovery_rate": 0.5,
+    "world_model_accuracy": 0.714,
+    "total_cost_usd": 3.4995,
+    "total_latency_s": 3.09,
+    "wall_time_s": 175.32,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "fac291d_1",
+    "split": "dev",
+    "instruction": "How many unique songs are there across my Spotify song library, albums library and all playlists?",
+    "solved": false,
+    "num_steps": 13,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 1.111,
+    "total_latency_s": 1.2,
+    "wall_time_s": 53.28,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "fac291d_2",
+    "split": "dev",
+    "instruction": "How many unique songs are there across my Spotify song library, albums library and all playlists?",
+    "solved": false,
+    "num_steps": 14,
+    "num_errors": 3,
+    "num_recoveries": 1,
+    "recovery_rate": 0.333,
+    "world_model_accuracy": 0.5,
+    "total_cost_usd": 1.3232,
+    "total_latency_s": 0.89,
+    "wall_time_s": 69.16,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "fac291d_3",
+    "split": "dev",
+    "instruction": "How many unique songs are there across my Spotify song library, albums library and all playlists?",
+    "solved": true,
+    "num_steps": 13,
+    "num_errors": 0,
+    "num_recoveries": 0,
+    "recovery_rate": null,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.1101,
+    "total_latency_s": 1.26,
+    "wall_time_s": 39.81,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "530b157_1",
+    "split": "dev",
+    "instruction": "Kristin paid for my grocery recently as my payment cards were not working at the time. Send them the owed money with a description note \"Groceries\" as per my phone text conversation, and then send them a phone text message, \"It is done.\".",
+    "solved": true,
+    "num_steps": 25,
+    "num_errors": 0,
+    "num_recoveries": 0,
+    "recovery_rate": null,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 3.3455,
+    "total_latency_s": 4.25,
+    "wall_time_s": 97.97,
+    "evaluation": {
+      "success": true,
+      "difficulty": 3,
+      "num_tests": 10
+    }
+  },
+  {
+    "task_id": "530b157_2",
+    "split": "dev",
+    "instruction": "Joseph paid for my grocery recently as my payment cards were not working at the time. Send them the owed money with a description note \"Grocery Bill\" as per my phone text conversation, and then send them a phone text message, \"Done.\".",
+    "solved": false,
+    "num_steps": 15,
+    "num_errors": 2,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 2.3067,
+    "total_latency_s": 1.34,
+    "wall_time_s": 107.76,
+    "evaluation": {
+      "success": false,
+      "difficulty": 3,
+      "num_tests": 10
+    }
+  },
+  {
+    "task_id": "530b157_3",
+    "split": "dev",
+    "instruction": "Robert paid for my grocery recently as my payment cards were not working at the time. Send them the owed money with a description note \"Thanks for the groceries!\" as per my phone text conversation, and then send them a phone text message, \"Done. Thanks!\".",
+    "solved": false,
+    "num_steps": 25,
+    "num_errors": 5,
+    "num_recoveries": 4,
+    "recovery_rate": 0.4,
+    "world_model_accuracy": 0.4,
+    "total_cost_usd": 3.9871,
+    "total_latency_s": 2.17,
+    "wall_time_s": 153.67,
+    "evaluation": {
+      "success": false,
+      "difficulty": 3,
+      "num_tests": 10
+    }
+  },
+  {
+    "task_id": "4ec8de5_1",
+    "split": "dev",
+    "instruction": "How many songs from across my spotify song and album libraries were released in this or last year?",
+    "solved": true,
+    "num_steps": 14,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.2241,
+    "total_latency_s": 1.14,
+    "wall_time_s": 41.9,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "4ec8de5_2",
+    "split": "dev",
+    "instruction": "How many songs from across my spotify song and album libraries were released in this year?",
+    "solved": true,
+    "num_steps": 14,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.2267,
+    "total_latency_s": 0.87,
+    "wall_time_s": 44.69,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "4ec8de5_3",
+    "split": "dev",
+    "instruction": "How many songs from across my spotify song and album libraries were released before this year?",
+    "solved": true,
+    "num_steps": 14,
+    "num_errors": 4,
+    "num_recoveries": 2,
+    "recovery_rate": 0.5,
+    "world_model_accuracy": 0.667,
+    "total_cost_usd": 1.8985,
+    "total_latency_s": 1.59,
+    "wall_time_s": 117.06,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "b119b1f_1",
+    "split": "dev",
+    "instruction": "Keep going to the previous song on Spotify until you reach a song by Luna Starlight.",
+    "solved": true,
+    "num_steps": 14,
+    "num_errors": 0,
+    "num_recoveries": 0,
+    "recovery_rate": null,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.197,
+    "total_latency_s": 0.56,
+    "wall_time_s": 47.17,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "b119b1f_2",
+    "split": "dev",
+    "instruction": "Keep going to the next song on Spotify until you reach a song by Lily Moon.",
+    "solved": true,
+    "num_steps": 15,
+    "num_errors": 3,
+    "num_recoveries": 7,
+    "recovery_rate": 0.667,
+    "world_model_accuracy": 0.714,
+    "total_cost_usd": 1.7769,
+    "total_latency_s": 1.02,
+    "wall_time_s": 150.56,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "b119b1f_3",
+    "split": "dev",
+    "instruction": "Keep going to the previous song on Spotify until you reach a song by Silent Thunder.",
+    "solved": true,
+    "num_steps": 17,
+    "num_errors": 4,
+    "num_recoveries": 4,
+    "recovery_rate": 0.5,
+    "world_model_accuracy": 0.8,
+    "total_cost_usd": 1.7782,
+    "total_latency_s": 0.89,
+    "wall_time_s": 97.96,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "d4e9306_1",
+    "split": "dev",
+    "instruction": "Follow artists of all the songs and albums I have ever liked on Spotify.",
+    "solved": true,
+    "num_steps": 18,
+    "num_errors": 3,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 2.1905,
+    "total_latency_s": 1.85,
+    "wall_time_s": 96.71,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "d4e9306_2",
+    "split": "dev",
+    "instruction": "Follow artists of all the songs and albums I have ever liked on Spotify.",
+    "solved": true,
+    "num_steps": 14,
+    "num_errors": 2,
+    "num_recoveries": 5,
+    "recovery_rate": 0.5,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.4764,
+    "total_latency_s": 1.22,
+    "wall_time_s": 132.51,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "d4e9306_3",
+    "split": "dev",
+    "instruction": "Follow artists of all the songs and albums I have ever liked on Spotify.",
+    "solved": true,
+    "num_steps": 15,
+    "num_errors": 2,
+    "num_recoveries": 5,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.4755,
+    "total_latency_s": 1.62,
+    "wall_time_s": 115.2,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "0d8a4ee_1",
+    "split": "dev",
+    "instruction": "Send the following phone message to my parents and siblings, who do not have a venmo account, \"Please get on venmo.\".",
+    "solved": true,
+    "num_steps": 15,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.3197,
+    "total_latency_s": 0.87,
+    "wall_time_s": 55.3,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 5
+    }
+  },
+  {
+    "task_id": "0d8a4ee_2",
+    "split": "dev",
+    "instruction": "Send the following phone message to my siblings and roommates, who do not have a venmo account, \"Get on venmo please!\".",
+    "solved": true,
+    "num_steps": 26,
+    "num_errors": 7,
+    "num_recoveries": 2,
+    "recovery_rate": 0.143,
+    "world_model_accuracy": 0.667,
+    "total_cost_usd": 4.0671,
+    "total_latency_s": 1.75,
+    "wall_time_s": 164.24,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 5
+    }
+  }
+]

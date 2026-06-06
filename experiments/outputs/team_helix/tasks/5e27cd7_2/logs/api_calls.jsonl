@@ -1,0 +1,53 @@
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "login"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "kat_simp@gmail.com", "password": "u%TW7ah"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "draft"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_category_sizes"}}
+{"method": "get", "url": "/gmail/category_sizes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_inbox_threads"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_thread"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/7018", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/33911", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/33913", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/9442", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/33915", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/7018", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/33911", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/33913", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/9442", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/33915", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI", "label": "inbox"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI", "label": "outbox"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI", "label": "archived"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI", "label": "spam"}}
+{"method": "get", "url": "/gmail/category_sizes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "draft"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_drafts"}}
+{"method": "get", "url": "/gmail/drafts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI", "page_index": 0, "page_limit": 100}}
+{"method": "get", "url": "/gmail/drafts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "delete_draft"}}
+{"method": "get", "url": "/gmail/drafts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "delete", "url": "/gmail/drafts/27", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "delete", "url": "/gmail/drafts/85", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "delete", "url": "/gmail/drafts/209", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "delete", "url": "/gmail/drafts/84", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "delete", "url": "/gmail/drafts/24", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "delete", "url": "/gmail/drafts/476", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "delete", "url": "/gmail/drafts/52", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "delete", "url": "/gmail/drafts/293", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "login"}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/gmail/drafts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.ChdP7jyPQYnkUJXZBywOBrJmq36axbD0MMgSYdFGSGI"}}
+{"method": "post", "url": "/supervisor/message", "data": {"status": "success"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "supervisor", "api_name": "complete_task"}}

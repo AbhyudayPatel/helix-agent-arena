@@ -1,0 +1,24 @@
+
+digraph monitor {
+  rankdir=LR; bgcolor="#0f172a"; fontname="Helvetica"; fontcolor="#e2e8f0";
+  node[fontname="Helvetica", style=filled, color="#475569", fontcolor="#0f172a"];
+  edge[color="#94a3b8", fontcolor="#cbd5e1", fontsize=10];
+  labelloc=t; fontsize=18; label="Monitor — live trajectory signals → intervention";
+
+  obs[label="observe(trajectory)", shape=box, fillcolor="#fde68a"];
+  s1[label="≥2 trailing errors", fillcolor="#fecaca"];
+  s2[label="same error type x2", fillcolor="#fecaca"];
+  s3[label="repeated action (loop)", fillcolor="#fecaca"];
+  s4[label="3 identical observations", fillcolor="#fde68a"];
+  s5[label="≥6 doc-only actions", fillcolor="#fde68a"];
+  s6[label="steps ≥ 80% budget", fillcolor="#fde68a"];
+  s7[label="steps ≥ budget", fillcolor="#fdba74"];
+  heal[label="HEAL", shape=box, fillcolor="#fdba74"];
+  replan[label="REPLAN", shape=box, fillcolor="#fde68a"];
+  abort[label="ABORT → finalize", shape=box, fillcolor="#fecaca"];
+
+  obs->s1; obs->s2; obs->s3; obs->s4; obs->s5; obs->s6; obs->s7;
+  s1->heal; s2->heal; s3->heal;
+  s4->replan; s5->replan; s6->replan;
+  s7->abort;
+}

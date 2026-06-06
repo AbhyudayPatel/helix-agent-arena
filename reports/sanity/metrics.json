@@ -1,0 +1,27 @@
+{
+  "num_tasks": 1,
+  "solved": 0,
+  "task_goal_completion": 0.0,
+  "avg_steps": 9.0,
+  "avg_errors": 2.0,
+  "error_rate": 0.2222,
+  "planning_efficiency": 0.7778,
+  "total_errors": 2,
+  "recovered_errors": 1,
+  "recovery_rate": 0.5,
+  "world_model_accuracy": 0.5,
+  "world_model_brier": 0.2313,
+  "world_model_n": 2,
+  "knowledge_reuse_rate": 0.0,
+  "memory_assisted_solve_rate": null,
+  "total_cost_usd": 0.7993,
+  "avg_cost_usd": 0.7993,
+  "avg_wall_time_s": 64.1,
+  "by_difficulty": {
+    "1": {
+      "n": 1,
+      "solved": 0,
+      "tgc": 0.0
+    }
+  }
+}

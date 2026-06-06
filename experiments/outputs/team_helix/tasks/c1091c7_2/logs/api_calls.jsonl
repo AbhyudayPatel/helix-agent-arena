@@ -1,0 +1,38 @@
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "login"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "login"}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "ce-maldonado@gmail.com", "password": "5klQTSt"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_inbox_threads"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_inbox_threads"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "phone", "api_name": "show_contacts"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "phone", "api_name": "search_contacts"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3947324235", "password": "-R0_%58"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszOTQ3MzI0MjM1IiwiZXhwIjoxNjg0NzQ3Njg3fQ.BwnsTn1oB1BXvanrApsAyPClg6B-Fsjh-27HlSthTHo", "relationship": "coworker"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4", "from_email": ["br_ritt@gmail.com", "ca-smit@gmail.com", "ch-burch@gmail.com", "ch.brow@gmail.com", "eri_powe@gmail.com"]}}
+{"method": "get", "url": "/gmail/emails/20869", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/348", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/349", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/1389", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/1390", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/1391", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/20869", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/348", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/349", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/1389", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/1390", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/emails/1391", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3947324235", "password": "-R0_%58"}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszOTQ3MzI0MjM1IiwiZXhwIjoxNjg0NzQ3Njc3fQ.0hp5HtYFBeXiEqIPmoT1v04r4V81ES-IJcGa0oIjZ04"}}
+{"method": "patch", "url": "/phone/alarms/606", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszOTQ3MzI0MjM1IiwiZXhwIjoxNjg0NzQ3Njc3fQ.0hp5HtYFBeXiEqIPmoT1v04r4V81ES-IJcGa0oIjZ04", "enabled": false}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszOTQ3MzI0MjM1IiwiZXhwIjoxNjg0NzQ3Njc3fQ.0hp5HtYFBeXiEqIPmoT1v04r4V81ES-IJcGa0oIjZ04"}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "No meeting cancellations found in emails, but all meeting alarms have been disabled."}}
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszOTQ3MzI0MjM1IiwiZXhwIjoxNjg0NzQ3Njc3fQ.0hp5HtYFBeXiEqIPmoT1v04r4V81ES-IJcGa0oIjZ04"}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "No meeting cancellations found in emails, but all meeting alarms have been disabled."}}

@@ -1,0 +1,287 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: 2a163ab_2 | solved=False | steps=28 errors=5 recoveries=3"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  m0 [shape=cylinder, fillcolor="#e2e8f0", label="m0: sim=0.31 What is the title of the most-l ...[+18]"];
+  m1 [shape=cylinder, fillcolor="#e2e8f0", label="m1: sim=0.27 What is the title of the most-p ...[+18]"];
+  m2 [shape=cylinder, fillcolor="#e2e8f0", label="m2: sim=0.25 What is the title of the least- ...[+18]"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.55: Identify siblings via phone cont ...[+14]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.80: Pull the entire Venmo social fee ...[+14]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.61: Retrieve sibling identities firs ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'L ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: I need to find siblings. Let me check su ...[+29]"];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: print([a['name'] for a in apis.api_docs. ...[+23]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: [
+ 'show_active_task',
+ 'complete_task', ...[+9]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: No family info there. Siblings likely in ...[+29]"];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: {
+ 'app_name': 'venmo',
+ 'api_name': 'lo ...[+11]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: act"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: venmo_token = apis.venmo.login(username= ...[+23]"];
+  o3 [shape=box, fillcolor="#bbf7d0", label="o3: ok
+[
+ 'show_account',
+ 'signup',
+ 'delet ...[+10]"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: user Execution output:
+
+Continue with yo ...[+30]"];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: {
+ 'app_name': 'phone',
+ 'api_name': 'se ...[+11]"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: act"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: siblings = []"];
+  o5 [shape=box, fillcolor="#bbf7d0", label="o5: {
+ 'contact_id': 1359,
+ 'first_name': 'C ...[+11]"];
+  s6 [shape=box, fillcolor="#e2e8f0", label="s6: S6: progressed"];
+  d7 [shape=ellipse, fillcolor="#e2e8f0", label="d7: Got siblings. Let me capture their email ...[+29]"];
+  a6 [shape=note, fillcolor="#e2e8f0", label="a6: sibling_emails = set(s['email'] for s in ...[+10]"];
+  o6 [shape=box, fillcolor="#bbf7d0", label="o6: {'normansmit@gmail.com', 'cod.smith@gmai ...[+11]"];
+  s7 [shape=box, fillcolor="#e2e8f0", label="s7: S7: progressed"];
+  d8 [shape=ellipse, fillcolor="#e2e8f0", label="d8: user Execution output:
+
+Continue with yo ...[+30]"];
+  a7 [shape=note, fillcolor="#e2e8f0", label="a7: t = feed[0]"];
+  o7 [shape=box, fillcolor="#fecaca", label="o7: error: NameError"];
+  s8 [shape=box, fillcolor="#fecaca", label="s8: S8: error"];
+  d9 [shape=ellipse, fillcolor="#e2e8f0", label="d9: The previous cell errored on the print ( ...[+30]"];
+  a8 [shape=note, fillcolor="#e2e8f0", label="a8: def info(t):"];
+  o8 [shape=box, fillcolor="#fecaca", label="o8: error: NameError"];
+  s9 [shape=box, fillcolor="#fecaca", label="s9: S9: error"];
+  d10 [shape=ellipse, fillcolor="#fdba74", label="d10: The issue: when the code block raises an ...[+30]"];
+  a9 [shape=note, fillcolor="#e2e8f0", label="a9: feed = []"];
+  o9 [shape=box, fillcolor="#fecaca", label="o9: error: Error"];
+  s10 [shape=box, fillcolor="#fecaca", label="s10: S10: error"];
+  d11 [shape=ellipse, fillcolor="#fdba74", label="d11: The social_feed feed enforces max page_l ...[+30]"];
+  a10 [shape=note, fillcolor="#e2e8f0", label="a10: feed = []"];
+  o10 [shape=box, fillcolor="#fecaca", label="o10: error: KeyError"];
+  s11 [shape=box, fillcolor="#fecaca", label="s11: S11: error"];
+  d12 [shape=ellipse, fillcolor="#fdba74", label="d12: Field names differ. feed is now populate ...[+29]"];
+  a11 [shape=note, fillcolor="#e2e8f0", label="a11: print(len(feed))"];
+  o11 [shape=box, fillcolor="#bbf7d0", label="o11: 151
+[
+ 'amount',
+ 'comment_count',
+ 'cre ...[+10]"];
+  s12 [shape=box, fillcolor="#e2e8f0", label="s12: S12: progressed"];
+  d13 [shape=ellipse, fillcolor="#e2e8f0", label="d13: No 'liked by current user' field. Let me ...[+29]"];
+  a12 [shape=note, fillcolor="#e2e8f0", label="a12: t = feed[0]"];
+  o12 [shape=box, fillcolor="#bbf7d0", label="o12: sender: {'name': 'Anthony Harrison', 'em ...[+10]"];
+  s13 [shape=box, fillcolor="#e2e8f0", label="s13: S13: progressed"];
+  d14 [shape=ellipse, fillcolor="#e2e8f0", label="d14: Now filter: yesterday = 2023-05-17, tran ...[+30]"];
+  a13 [shape=note, fillcolor="#e2e8f0", label="a13: for m in matches:"];
+  o13 [shape=box, fillcolor="#fecaca", label="o13: error: NameError"];
+  s14 [shape=box, fillcolor="#fecaca", label="s14: S14: error"];
+  d15 [shape=ellipse, fillcolor="#e2e8f0", label="d15: The matches variable was lost (the print ...[+29]"];
+  a14 [shape=note, fillcolor="#e2e8f0", label="a14: sibling_emails = {'normansmit@gmail.com' ...[+23]"];
+  o14 [shape=box, fillcolor="#bbf7d0", label="o14: to like: []"];
+  s15 [shape=box, fillcolor="#e2e8f0", label="s15: S15: progressed"];
+  d16 [shape=ellipse, fillcolor="#e2e8f0", label="d16: Empty now — `feed` may have been mutated ...[+29]"];
+  a15 [shape=note, fillcolor="#e2e8f0", label="a15: feed = []"];
+  o15 [shape=box, fillcolor="#bbf7d0", label="o15: feed len 151
+to like: []"];
+  s16 [shape=box, fillcolor="#e2e8f0", label="s16: S16: progressed"];
+  d17 [shape=ellipse, fillcolor="#e2e8f0", label="d17: Hmm, feed has 151 but no matches now. Ea ...[+30]"];
+  a16 [shape=note, fillcolor="#e2e8f0", label="a16: print(type(feed[0]['created_at']), repr( ...[+23]"];
+  o16 [shape=box, fillcolor="#bbf7d0", label="o16: <class 'str'> '2023-04-04T21:40:58'
+[
+ [ ...[+10]"];
+  s17 [shape=box, fillcolor="#e2e8f0", label="s17: S17: progressed"];
+  d18 [shape=ellipse, fillcolor="#e2e8f0", label="d18: The current feed has no 2023-05-17 entri ...[+30]"];
+  a17 [shape=note, fillcolor="#e2e8f0", label="a17: allds = sorted(set(str(t['created_at'])[ ...[+20]"];
+  o17 [shape=box, fillcolor="#bbf7d0", label="o17: min 2022-07-10 max 2023-05-17
+has 05-17: ...[+9]"];
+  s18 [shape=box, fillcolor="#e2e8f0", label="s18: S18: progressed"];
+  d19 [shape=ellipse, fillcolor="#e2e8f0", label="d19: Interesting — max date IS 2023-05-17, bu ...[+30]"];
+  a18 [shape=note, fillcolor="#e2e8f0", label="a18: may17 = [t for t in feed if str(t['creat ...[+23]"];
+  o18 [shape=box, fillcolor="#bbf7d0", label="o18: 1
+5853 jefsmith@gmail.com -> gra-martine ...[+9]"];
+  s19 [shape=box, fillcolor="#e2e8f0", label="s19: S19: progressed"];
+  d20 [shape=ellipse, fillcolor="#e2e8f0", label="d20: The feed is non-deterministic / shows ra ...[+30]"];
+  a19 [shape=note, fillcolor="#e2e8f0", label="a19: seen = {}"];
+  o19 [shape=box, fillcolor="#bbf7d0", label="o19: total unique 151
+may17 count 1
+5853 jefs ...[+9]"];
+  s20 [shape=box, fillcolor="#e2e8f0", label="s20: S20: progressed"];
+  d21 [shape=ellipse, fillcolor="#e2e8f0", label="d21: Now it's consistently 151 with different ...[+30]"];
+  a20 [shape=note, fillcolor="#e2e8f0", label="a20: b1 = apis.venmo.show_transactions(access ...[+23]"];
+  o20 [shape=box, fillcolor="#bbf7d0", label="o20: str true ids: [1233, 1234, 1235, 1236, 1 ...[+10]"];
+  s21 [shape=box, fillcolor="#e2e8f0", label="s21: S21: progressed"];
+  d22 [shape=ellipse, fillcolor="#e2e8f0", label="d22: All three return the SAME IDs now — so s ...[+30]"];
+  a21 [shape=note, fillcolor="#e2e8f0", label="a21: own = {}"];
+  o21 [shape=box, fillcolor="#bbf7d0", label="o21: own total 151
+own 05-17 1
+5853 jefsmith@ ...[+9]"];
+  s22 [shape=box, fillcolor="#e2e8f0", label="s22: S22: progressed"];
+  d23 [shape=ellipse, fillcolor="#e2e8f0", label="d23: Both feeds now return identical 151 reco ...[+30]"];
+  a22 [shape=note, fillcolor="#e2e8f0", label="a22: ids_sorted = sorted(seen.keys())"];
+  o22 [shape=box, fillcolor="#bbf7d0", label="o22: count 151 min 1233 max 7893
+5853 2023-05 ...[+10]"];
+  s23 [shape=box, fillcolor="#e2e8f0", label="s23: S23: progressed"];
+  d24 [shape=ellipse, fillcolor="#e2e8f0", label="d24: This feed is 'my own transactions' feed  ...[+30]"];
+  a23 [shape=note, fillcolor="#e2e8f0", label="a23: apis.venmo.logout(access_token=venmo_tok ...[+3]"];
+  o23 [shape=box, fillcolor="#bbf7d0", label="o23: social feed total 151
+id min/max 1233 78 ...[+9]"];
+  s24 [shape=box, fillcolor="#e2e8f0", label="s24: S24: progressed"];
+  d25 [shape=ellipse, fillcolor="#e2e8f0", label="d25: The stable, reproducible social feed (af ...[+30]"];
+  a24 [shape=note, fillcolor="#e2e8f0", label="a24: sibling_emails = {'normansmit@gmail.com' ...[+23]"];
+  o24 [shape=box, fillcolor="#bbf7d0", label="o24: sibling matches on 05-17: 0
+any sibling  ...[+9]"];
+  s25 [shape=box, fillcolor="#e2e8f0", label="s25: S25: progressed"];
+  d26 [shape=ellipse, fillcolor="#e2e8f0", label="d26: No sibling transactions appear ANYWHERE  ...[+30]"];
+  a25 [shape=note, fillcolor="#e2e8f0", label="a25: for tid in [20256, 20264, 20272, 20279]:"];
+  o25 [shape=box, fillcolor="#bbf7d0", label="o25: 20256 ERROR Response status code is 409: ...[+10]"];
+  s26 [shape=box, fillcolor="#e2e8f0", label="s26: S26: progressed"];
+  d27 [shape=ellipse, fillcolor="#e2e8f0", label="d27: The 20xxx transactions do not exist — th ...[+30]"];
+  a26 [shape=note, fillcolor="#e2e8f0", label="a26: sib_results = []"];
+  o26 [shape=box, fillcolor="#bbf7d0", label="o26: [
+ 'Cody Smith',
+ [
+  [
+   null,
+   'cod ...[+10]"];
+  s27 [shape=box, fillcolor="#e2e8f0", label="s27: S27: progressed"];
+  d28 [shape=ellipse, fillcolor="#e2e8f0", label="d28: Siblings ARE venmo friends. The social f ...[+30]"];
+  a27 [shape=note, fillcolor="#e2e8f0", label="a27: sibling_emails = {'normansmit@gmail.com' ...[+23]"];
+  o27 [shape=box, fillcolor="#bbf7d0", label="o27: total 0
+05-17 count 0"];
+  s28 [shape=box, fillcolor="#e2e8f0", label="s28: S28: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  m0 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  m1 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  m2 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+  s6 -> d7 [label="decides", color="#94a3b8"];
+  d7 -> a6 [label="acts", color="#94a3b8"];
+  a6 -> o6 [label="yields", color="#94a3b8"];
+  o6 -> s7 [label="transitions", color="#64748b"];
+  s7 -> d8 [label="decides", color="#94a3b8"];
+  d8 -> a7 [label="acts", color="#94a3b8"];
+  a7 -> o7 [label="yields", color="#94a3b8"];
+  o7 -> s8 [label="transitions", color="#64748b"];
+  s8 -> d9 [label="decides", color="#94a3b8"];
+  d9 -> a8 [label="acts", color="#94a3b8"];
+  a8 -> o8 [label="yields", color="#94a3b8"];
+  o8 -> s9 [label="transitions", color="#64748b"];
+  s9 -> d10 [label="decides", color="#94a3b8"];
+  o8 -> d10 [label="recovers", style=dashed, color="#ef4444"];
+  d10 -> a9 [label="acts", color="#94a3b8"];
+  a9 -> o9 [label="yields", color="#94a3b8"];
+  o9 -> s10 [label="transitions", color="#64748b"];
+  s10 -> d11 [label="decides", color="#94a3b8"];
+  o9 -> d11 [label="recovers", style=dashed, color="#ef4444"];
+  d11 -> a10 [label="acts", color="#94a3b8"];
+  a10 -> o10 [label="yields", color="#94a3b8"];
+  o10 -> s11 [label="transitions", color="#64748b"];
+  s11 -> d12 [label="decides", color="#94a3b8"];
+  o10 -> d12 [label="recovers", style=dashed, color="#ef4444"];
+  d12 -> a11 [label="acts", color="#94a3b8"];
+  a11 -> o11 [label="yields", color="#94a3b8"];
+  o11 -> s12 [label="transitions", color="#64748b"];
+  s12 -> d13 [label="decides", color="#94a3b8"];
+  d13 -> a12 [label="acts", color="#94a3b8"];
+  a12 -> o12 [label="yields", color="#94a3b8"];
+  o12 -> s13 [label="transitions", color="#64748b"];
+  s13 -> d14 [label="decides", color="#94a3b8"];
+  d14 -> a13 [label="acts", color="#94a3b8"];
+  a13 -> o13 [label="yields", color="#94a3b8"];
+  o13 -> s14 [label="transitions", color="#64748b"];
+  s14 -> d15 [label="decides", color="#94a3b8"];
+  d15 -> a14 [label="acts", color="#94a3b8"];
+  a14 -> o14 [label="yields", color="#94a3b8"];
+  o14 -> s15 [label="transitions", color="#64748b"];
+  s15 -> d16 [label="decides", color="#94a3b8"];
+  d16 -> a15 [label="acts", color="#94a3b8"];
+  a15 -> o15 [label="yields", color="#94a3b8"];
+  o15 -> s16 [label="transitions", color="#64748b"];
+  s16 -> d17 [label="decides", color="#94a3b8"];
+  d17 -> a16 [label="acts", color="#94a3b8"];
+  a16 -> o16 [label="yields", color="#94a3b8"];
+  o16 -> s17 [label="transitions", color="#64748b"];
+  s17 -> d18 [label="decides", color="#94a3b8"];
+  d18 -> a17 [label="acts", color="#94a3b8"];
+  a17 -> o17 [label="yields", color="#94a3b8"];
+  o17 -> s18 [label="transitions", color="#64748b"];
+  s18 -> d19 [label="decides", color="#94a3b8"];
+  d19 -> a18 [label="acts", color="#94a3b8"];
+  a18 -> o18 [label="yields", color="#94a3b8"];
+  o18 -> s19 [label="transitions", color="#64748b"];
+  s19 -> d20 [label="decides", color="#94a3b8"];
+  d20 -> a19 [label="acts", color="#94a3b8"];
+  a19 -> o19 [label="yields", color="#94a3b8"];
+  o19 -> s20 [label="transitions", color="#64748b"];
+  s20 -> d21 [label="decides", color="#94a3b8"];
+  d21 -> a20 [label="acts", color="#94a3b8"];
+  a20 -> o20 [label="yields", color="#94a3b8"];
+  o20 -> s21 [label="transitions", color="#64748b"];
+  s21 -> d22 [label="decides", color="#94a3b8"];
+  d22 -> a21 [label="acts", color="#94a3b8"];
+  a21 -> o21 [label="yields", color="#94a3b8"];
+  o21 -> s22 [label="transitions", color="#64748b"];
+  s22 -> d23 [label="decides", color="#94a3b8"];
+  d23 -> a22 [label="acts", color="#94a3b8"];
+  a22 -> o22 [label="yields", color="#94a3b8"];
+  o22 -> s23 [label="transitions", color="#64748b"];
+  s23 -> d24 [label="decides", color="#94a3b8"];
+  d24 -> a23 [label="acts", color="#94a3b8"];
+  a23 -> o23 [label="yields", color="#94a3b8"];
+  o23 -> s24 [label="transitions", color="#64748b"];
+  s24 -> d25 [label="decides", color="#94a3b8"];
+  d25 -> a24 [label="acts", color="#94a3b8"];
+  a24 -> o24 [label="yields", color="#94a3b8"];
+  o24 -> s25 [label="transitions", color="#64748b"];
+  s25 -> d26 [label="decides", color="#94a3b8"];
+  d26 -> a25 [label="acts", color="#94a3b8"];
+  a25 -> o25 [label="yields", color="#94a3b8"];
+  o25 -> s26 [label="transitions", color="#64748b"];
+  s26 -> d27 [label="decides", color="#94a3b8"];
+  d27 -> a26 [label="acts", color="#94a3b8"];
+  a26 -> o26 [label="yields", color="#94a3b8"];
+  o26 -> s27 [label="transitions", color="#64748b"];
+  s27 -> d28 [label="decides", color="#94a3b8"];
+  d28 -> a27 [label="acts", color="#94a3b8"];
+  a27 -> o27 [label="yields", color="#94a3b8"];
+  o27 -> s28 [label="transitions", color="#64748b"];
+}

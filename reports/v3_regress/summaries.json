@@ -1,0 +1,116 @@
+[
+  {
+    "task_id": "4ec8de5_1",
+    "split": "dev",
+    "instruction": "How many songs from across my spotify song and album libraries were released in this or last year?",
+    "solved": true,
+    "num_steps": 12,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.263,
+    "total_latency_s": 3.28,
+    "wall_time_s": 48.4,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "b119b1f_2",
+    "split": "dev",
+    "instruction": "Keep going to the next song on Spotify until you reach a song by Lily Moon.",
+    "solved": true,
+    "num_steps": 8,
+    "num_errors": 0,
+    "num_recoveries": 0,
+    "recovery_rate": null,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 0.6347,
+    "total_latency_s": 0.48,
+    "wall_time_s": 45.63,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "d4e9306_1",
+    "split": "dev",
+    "instruction": "Follow artists of all the songs and albums I have ever liked on Spotify.",
+    "solved": true,
+    "num_steps": 16,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 1.7558,
+    "total_latency_s": 1.63,
+    "wall_time_s": 69.71,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "0d8a4ee_1",
+    "split": "dev",
+    "instruction": "Send the following phone message to my parents and siblings, who do not have a venmo account, \"Please get on venmo.\".",
+    "solved": true,
+    "num_steps": 15,
+    "num_errors": 2,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 1.8413,
+    "total_latency_s": 2.5,
+    "wall_time_s": 80.34,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 5
+    }
+  },
+  {
+    "task_id": "50e1ac9_3",
+    "split": "dev",
+    "instruction": "Give me a comma-separated list of top 3 most played indie song titles from across my Spotify song, album and playlist libraries.",
+    "solved": false,
+    "num_steps": 15,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 1.8309,
+    "total_latency_s": 2.49,
+    "wall_time_s": 56.7,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "fac291d_3",
+    "split": "dev",
+    "instruction": "How many unique songs are there across my Spotify song library, albums library and all playlists?",
+    "solved": false,
+    "num_steps": 13,
+    "num_errors": 2,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 1.197,
+    "total_latency_s": 1.13,
+    "wall_time_s": 41.59,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  }
+]

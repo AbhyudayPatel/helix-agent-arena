@@ -1,0 +1,58 @@
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "simple_note"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "simple_note", "api_name": "login"}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "simple_note", "api_name": "search_notes"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "page_index": 1, "page_limit": 20}}
+{"method": "get", "url": "/simple_note/notes/3085", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "schedule_send"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "send_email"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "simple_note"}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcwODR9._pvhK-c2pWdxAwOqFg70I9egmzKYns8GhJiJ-dJ1zAE", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcwODR9._pvhK-c2pWdxAwOqFg70I9egmzKYns8GhJiJ-dJ1zAE", "page_index": 1, "page_limit": 20}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "simple_note", "api_name": "search_notes"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "send_email"}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1MTB9.jV_ctswp4cBZ-z6tT8YCPbofy2N80h-XSi52OG0hNmU", "page_index": 0, "page_limit": 20}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY5NTd9.Uaj0Szfs6rwmEJ8lM6NbWG9kKWwCrlodLiBcoQrs828", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/simple_note/notes/3085", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY5NTd9.Uaj0Szfs6rwmEJ8lM6NbWG9kKWwCrlodLiBcoQrs828"}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY4Njl9.c3gUi0nQcCIpf__yQhsavbkfxBWvnRpzeJxVyv_lAJg", "subject": "Meeting 'Leadership Training Session' Starting Soon", "to": ["Paul@example.com", "Denise@example.com", "Jeffery@example.com"], "send_time": "Tuesday 14:00"}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcwNDB9.qd8TRIRBudk0oaNPN0pTxJwJo_7XlREHJMIb_cFVywU", "subject": "Meeting 'Leadership Training Session' Starting Soon", "email_addresses": ["Paul", "Denise", "Jeffery"], "body": "", "send_time": "Tuesday 14:00"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "schedule_email"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "contacts"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "send_email"}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcxOTF9.DWz6Y1Bx6ytzcoiPlactc7vrJNsPYMI4c3kWk0TNpTc", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/simple_note/notes/3085", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcxOTF9.DWz6Y1Bx6ytzcoiPlactc7vrJNsPYMI4c3kWk0TNpTc"}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "send_email"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "simple_note"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcyNDR9.ZnmvbCtuE2JLxB1enJZaGt1jEwqvW_Bga6dHkTzY2Tc", "page_index": 0, "page_limit": 50}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0MDF9.sjyP6RgunMcO3hdjDSi6DP7oepw_ZqSp45ytfm1K-ro", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/simple_note/notes/3085", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0MDF9.sjyP6RgunMcO3hdjDSi6DP7oepw_ZqSp45ytfm1K-ro"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0MDF9.sjyP6RgunMcO3hdjDSi6DP7oepw_ZqSp45ytfm1K-ro"}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYzMTd9.vO1BzdirjXPvQXZLQBUq_vhyAtIFXYB0NtGOAqnNbSI", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYzMTd9.vO1BzdirjXPvQXZLQBUq_vhyAtIFXYB0NtGOAqnNbSI", "page_index": 1, "page_limit": 20}}

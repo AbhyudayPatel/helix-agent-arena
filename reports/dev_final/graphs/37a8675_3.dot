@@ -1,0 +1,78 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: 37a8675_3 | solved=False | steps=6 errors=0 recoveries=0"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  m0 [shape=cylinder, fillcolor="#e2e8f0", label="m0: sim=0.86 Send $100 publicly on Venmo to  ...[+18]"];
+  m1 [shape=cylinder, fillcolor="#e2e8f0", label="m1: sim=0.66 Send the following phone messag ...[+18]"];
+  m2 [shape=cylinder, fillcolor="#e2e8f0", label="m2: sim=0.64 Send the following phone messag ...[+18]"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.55: Use the phone app's contacts to  ...[+14]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.76: Search Venmo's friends/contacts  ...[+13]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.69: Cross-reference the phone number ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'S ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: Login to Venmo and check search_users +  ...[+28]"];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: venmo_login = apis.venmo.login(username= ...[+23]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ ...[+11]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: Venmo search is by name/email, not phone ...[+29]"];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: phone_login = apis.phone.login(username= ...[+23]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: [
+ {
+  'contact_id': 883,
+  'first_name' ...[+11]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: The phone number 2114992604 belongs to S ...[+29]"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: res = apis.venmo.search_users(access_tok ...[+23]"];
+  o3 [shape=box, fillcolor="#bbf7d0", label="o3: [
+ {
+  'first_name': 'Sherry',
+  'last_n ...[+11]"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: Confirmed Sherry Smith on Venmo. Check c ...[+28]"];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: {
+ 'app_name': 'venmo',
+ 'api_name': 'cr ...[+11]"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: The `private` parameter controls visibil ...[+29]"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: apis.supervisor.complete_task(status='su ...[+7]"];
+  o5 [shape=box, fillcolor="#fde68a", label="o5: ok (no output)"];
+  s6 [shape=box, fillcolor="#e2e8f0", label="s6: S6: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  m0 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  m1 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  m2 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+}

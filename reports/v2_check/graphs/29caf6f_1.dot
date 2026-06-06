@@ -1,0 +1,246 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: 29caf6f_1 | solved=True | steps=25 errors=2 recoveries=0"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.35: Read Christopher's text message  ...[+14]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.25: Authenticate to phone and simple ...[+14]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.75: Use api_docs to learn each app's ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'C ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: Let me discover phone and simple_note AP ...[+3]"];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: print('=== PHONE ==='); print(apis.api_d ...[+23]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: === PHONE ===
+[
+ {
+  'name': 'show_accou ...[+11]"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: act"];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: print(apis.api_docs.show_api_description ...[+23]"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: [
+ {
+  'name': 'search_text_messages',
+  ...[+11]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: Let me log in to phone and find Christop ...[+14]"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o3 [shape=box, fillcolor="#bbf7d0", label="o3: {
+ 'app_name': 'phone',
+ 'api_name': 'lo ...[+10]"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: act"];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: phone_token = apis.phone.login(username= ...[+23]"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: logged in
+{
+ 'app_name': 'phone',
+ 'api_ ...[+11]"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: user Execution output:
+
+Continue with yo ...[+30]"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o5 [shape=box, fillcolor="#bbf7d0", label="o5: {
+ 'app_name': 'phone',
+ 'api_name': 'se ...[+11]"];
+  s6 [shape=box, fillcolor="#e2e8f0", label="s6: S6: progressed"];
+  d7 [shape=ellipse, fillcolor="#e2e8f0", label="d7: act"];
+  a6 [shape=note, fillcolor="#e2e8f0", label="a6: msgs = []"];
+  o6 [shape=box, fillcolor="#fecaca", label="o6: error: Error"];
+  s7 [shape=box, fillcolor="#fecaca", label="s7: S7: error"];
+  d8 [shape=ellipse, fillcolor="#e2e8f0", label="d8: The phone_number param expects an existi ...[+29]"];
+  a7 [shape=note, fillcolor="#e2e8f0", label="a7: msgs = []"];
+  o7 [shape=box, fillcolor="#bbf7d0", label="o7: total 138"];
+  s8 [shape=box, fillcolor="#e2e8f0", label="s8: S8: progressed"];
+  d9 [shape=ellipse, fillcolor="#e2e8f0", label="d9: No matches — let me inspect the message  ...[+30]"];
+  a8 [shape=note, fillcolor="#e2e8f0", label="a8: chris = [m for m in msgs if m.get('phone ...[+23]"];
+  o8 [shape=box, fillcolor="#bbf7d0", label="o8: 0"];
+  s9 [shape=box, fillcolor="#e2e8f0", label="s9: S9: progressed"];
+  d10 [shape=ellipse, fillcolor="#e2e8f0", label="d10: Hmm, the earlier execution printed `tota ...[+30]"];
+  a9 [shape=note, fillcolor="#e2e8f0", label="a9: from collections import Counter"];
+  o9 [shape=box, fillcolor="#fecaca", label="o9: error: KeyError"];
+  s10 [shape=box, fillcolor="#fecaca", label="s10: S10: error"];
+  d11 [shape=ellipse, fillcolor="#e2e8f0", label="d11: Inconsistent fields across messages. Let ...[+29]"];
+  a10 [shape=note, fillcolor="#e2e8f0", label="a10: print(msgs[0].keys())"];
+  o10 [shape=box, fillcolor="#bbf7d0", label="o10: dict_keys(['text_message_id', 'sender',  ...[+11]"];
+  s11 [shape=box, fillcolor="#e2e8f0", label="s11: S11: progressed"];
+  d12 [shape=ellipse, fillcolor="#e2e8f0", label="d12: The actual Christopher is 'Christopher B ...[+30]"];
+  a11 [shape=note, fillcolor="#e2e8f0", label="a11: def num(m,role): return m[role]['phone_n ...[+7]"];
+  o11 [shape=box, fillcolor="#bbf7d0", label="o11: 14
+2022-01-15T09:34:52 | Christopher Bur ...[+11]"];
+  s12 [shape=box, fillcolor="#e2e8f0", label="s12: S12: progressed"];
+  d13 [shape=ellipse, fillcolor="#e2e8f0", label="d13: act"];
+  a12 [shape=note, fillcolor="#e2e8f0", label="a12: for m in sorted(chris, key=lambda x: x[' ...[+16]"];
+  o12 [shape=box, fillcolor="#bbf7d0", label="o12: 2023-05-17T14:09:41 | Christopher Burch  ...[+10]"];
+  s13 [shape=box, fillcolor="#e2e8f0", label="s13: S13: progressed"];
+  d14 [shape=ellipse, fillcolor="#e2e8f0", label="d14: Christopher wants movie recommendations  ...[+29]"];
+  a13 [shape=note, fillcolor="#e2e8f0", label="a13: print(apis.api_docs.show_api_description ...[+23]"];
+  o13 [shape=box, fillcolor="#bbf7d0", label="o13: [
+ {
+  'name': 'show_account',
+  'descri ...[+11]"];
+  s14 [shape=box, fillcolor="#e2e8f0", label="s14: S14: progressed"];
+  d15 [shape=ellipse, fillcolor="#e2e8f0", label="d15: act"];
+  a14 [shape=note, fillcolor="#e2e8f0", label="a14: sn_token = apis.simple_note.login(userna ...[+23]"];
+  o14 [shape=box, fillcolor="#bbf7d0", label="o14: {
+ 'app_name': 'simple_note',
+ 'api_name ...[+11]"];
+  s15 [shape=box, fillcolor="#e2e8f0", label="s15: S15: progressed"];
+  d16 [shape=ellipse, fillcolor="#e2e8f0", label="d16: act"];
+  a15 [shape=note, fillcolor="#e2e8f0", label="a15: notes = []"];
+  o15 [shape=box, fillcolor="#bbf7d0", label="o15: 26
+1617 | Habit Tracking Log for 2023-05 ...[+11]"];
+  s16 [shape=box, fillcolor="#e2e8f0", label="s16: S16: progressed"];
+  d17 [shape=ellipse, fillcolor="#e2e8f0", label="d17: act"];
+  a16 [shape=note, fillcolor="#e2e8f0", label="a16: for n in notes[16:]:"];
+  o16 [shape=box, fillcolor="#bbf7d0", label="o16: 1614 | Funny Quotes Collection | ['quote ...[+10]"];
+  s17 [shape=box, fillcolor="#e2e8f0", label="s17: S17: progressed"];
+  d18 [shape=ellipse, fillcolor="#e2e8f0", label="d18: Note 1608 'Movie Recommendations'. Let m ...[+20]"];
+  a17 [shape=note, fillcolor="#e2e8f0", label="a17: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o17 [shape=box, fillcolor="#bbf7d0", label="o17: {
+ 'app_name': 'simple_note',
+ 'api_name ...[+10]"];
+  s18 [shape=box, fillcolor="#e2e8f0", label="s18: S18: progressed"];
+  d19 [shape=ellipse, fillcolor="#e2e8f0", label="d19: act"];
+  a18 [shape=note, fillcolor="#e2e8f0", label="a18: note = apis.simple_note.show_note(note_i ...[+23]"];
+  o18 [shape=box, fillcolor="#bbf7d0", label="o18: # Movie Recommendations
+
+Interstellar
+ - ...[+11]"];
+  s19 [shape=box, fillcolor="#e2e8f0", label="s19: S19: progressed"];
+  d20 [shape=ellipse, fillcolor="#e2e8f0", label="d20: Let me parse and find David Fincher movi ...[+3]"];
+  a19 [shape=note, fillcolor="#e2e8f0", label="a19: import re"];
+  o19 [shape=box, fillcolor="#bbf7d0", label="o19: ['Fight Club', 'The Social Network']"];
+  s20 [shape=box, fillcolor="#e2e8f0", label="s20: S20: progressed"];
+  d21 [shape=ellipse, fillcolor="#e2e8f0", label="d21: David Fincher movies: Fight Club, The So ...[+29]"];
+  a20 [shape=note, fillcolor="#e2e8f0", label="a20: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o20 [shape=box, fillcolor="#bbf7d0", label="o20: {
+ 'app_name': 'phone',
+ 'api_name': 'se ...[+10]"];
+  s21 [shape=box, fillcolor="#e2e8f0", label="s21: S21: progressed"];
+  d22 [shape=ellipse, fillcolor="#e2e8f0", label="d22: act"];
+  a21 [shape=note, fillcolor="#e2e8f0", label="a21: reply = 'Fight Club, The Social Network'"];
+  o21 [shape=box, fillcolor="#bbf7d0", label="o21: {'message': 'Text message sent.', 'text_ ...[+9]"];
+  s22 [shape=box, fillcolor="#e2e8f0", label="s22: S22: progressed"];
+  d23 [shape=ellipse, fillcolor="#e2e8f0", label="d23: Sent. Let me verify it appears in the co ...[+11]"];
+  a22 [shape=note, fillcolor="#e2e8f0", label="a22: verify = apis.phone.search_text_messages ...[+23]"];
+  o22 [shape=box, fillcolor="#bbf7d0", label="o22: 2023-05-18T12:00:00 Joyce Weaver -> Chri ...[+10]"];
+  s23 [shape=box, fillcolor="#e2e8f0", label="s23: S23: progressed"];
+  d24 [shape=ellipse, fillcolor="#e2e8f0", label="d24: Verified — reply sent with comma-separat ...[+29]"];
+  a23 [shape=note, fillcolor="#e2e8f0", label="a23: print(apis.supervisor.complete_task(stat ...[+14]"];
+  o23 [shape=box, fillcolor="#bbf7d0", label="o23: {'message': 'Marked the active task comp ...[+8]"];
+  s24 [shape=box, fillcolor="#e2e8f0", label="s24: S24: progressed"];
+  d25 [shape=ellipse, fillcolor="#e2e8f0", label="d25: Verified: task required replying to Chri ...[+30]"];
+  a24 [shape=note, fillcolor="#e2e8f0", label="a24: print(apis.supervisor.show_active_task() ...[+1]"];
+  o24 [shape=box, fillcolor="#bbf7d0", label="o24: {
+ 'instruction': 'Christopher has asked ...[+10]"];
+  s25 [shape=box, fillcolor="#a7f3d0", label="s25: S25: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+  s6 -> d7 [label="decides", color="#94a3b8"];
+  d7 -> a6 [label="acts", color="#94a3b8"];
+  a6 -> o6 [label="yields", color="#94a3b8"];
+  o6 -> s7 [label="transitions", color="#64748b"];
+  s7 -> d8 [label="decides", color="#94a3b8"];
+  d8 -> a7 [label="acts", color="#94a3b8"];
+  a7 -> o7 [label="yields", color="#94a3b8"];
+  o7 -> s8 [label="transitions", color="#64748b"];
+  s8 -> d9 [label="decides", color="#94a3b8"];
+  d9 -> a8 [label="acts", color="#94a3b8"];
+  a8 -> o8 [label="yields", color="#94a3b8"];
+  o8 -> s9 [label="transitions", color="#64748b"];
+  s9 -> d10 [label="decides", color="#94a3b8"];
+  d10 -> a9 [label="acts", color="#94a3b8"];
+  a9 -> o9 [label="yields", color="#94a3b8"];
+  o9 -> s10 [label="transitions", color="#64748b"];
+  s10 -> d11 [label="decides", color="#94a3b8"];
+  d11 -> a10 [label="acts", color="#94a3b8"];
+  a10 -> o10 [label="yields", color="#94a3b8"];
+  o10 -> s11 [label="transitions", color="#64748b"];
+  s11 -> d12 [label="decides", color="#94a3b8"];
+  d12 -> a11 [label="acts", color="#94a3b8"];
+  a11 -> o11 [label="yields", color="#94a3b8"];
+  o11 -> s12 [label="transitions", color="#64748b"];
+  s12 -> d13 [label="decides", color="#94a3b8"];
+  d13 -> a12 [label="acts", color="#94a3b8"];
+  a12 -> o12 [label="yields", color="#94a3b8"];
+  o12 -> s13 [label="transitions", color="#64748b"];
+  s13 -> d14 [label="decides", color="#94a3b8"];
+  d14 -> a13 [label="acts", color="#94a3b8"];
+  a13 -> o13 [label="yields", color="#94a3b8"];
+  o13 -> s14 [label="transitions", color="#64748b"];
+  s14 -> d15 [label="decides", color="#94a3b8"];
+  d15 -> a14 [label="acts", color="#94a3b8"];
+  a14 -> o14 [label="yields", color="#94a3b8"];
+  o14 -> s15 [label="transitions", color="#64748b"];
+  s15 -> d16 [label="decides", color="#94a3b8"];
+  d16 -> a15 [label="acts", color="#94a3b8"];
+  a15 -> o15 [label="yields", color="#94a3b8"];
+  o15 -> s16 [label="transitions", color="#64748b"];
+  s16 -> d17 [label="decides", color="#94a3b8"];
+  d17 -> a16 [label="acts", color="#94a3b8"];
+  a16 -> o16 [label="yields", color="#94a3b8"];
+  o16 -> s17 [label="transitions", color="#64748b"];
+  s17 -> d18 [label="decides", color="#94a3b8"];
+  d18 -> a17 [label="acts", color="#94a3b8"];
+  a17 -> o17 [label="yields", color="#94a3b8"];
+  o17 -> s18 [label="transitions", color="#64748b"];
+  s18 -> d19 [label="decides", color="#94a3b8"];
+  d19 -> a18 [label="acts", color="#94a3b8"];
+  a18 -> o18 [label="yields", color="#94a3b8"];
+  o18 -> s19 [label="transitions", color="#64748b"];
+  s19 -> d20 [label="decides", color="#94a3b8"];
+  d20 -> a19 [label="acts", color="#94a3b8"];
+  a19 -> o19 [label="yields", color="#94a3b8"];
+  o19 -> s20 [label="transitions", color="#64748b"];
+  s20 -> d21 [label="decides", color="#94a3b8"];
+  d21 -> a20 [label="acts", color="#94a3b8"];
+  a20 -> o20 [label="yields", color="#94a3b8"];
+  o20 -> s21 [label="transitions", color="#64748b"];
+  s21 -> d22 [label="decides", color="#94a3b8"];
+  d22 -> a21 [label="acts", color="#94a3b8"];
+  a21 -> o21 [label="yields", color="#94a3b8"];
+  o21 -> s22 [label="transitions", color="#64748b"];
+  s22 -> d23 [label="decides", color="#94a3b8"];
+  d23 -> a22 [label="acts", color="#94a3b8"];
+  a22 -> o22 [label="yields", color="#94a3b8"];
+  o22 -> s23 [label="transitions", color="#64748b"];
+  s23 -> d24 [label="decides", color="#94a3b8"];
+  d24 -> a23 [label="acts", color="#94a3b8"];
+  a23 -> o23 [label="yields", color="#94a3b8"];
+  o23 -> s24 [label="transitions", color="#64748b"];
+  s24 -> d25 [label="decides", color="#94a3b8"];
+  d25 -> a24 [label="acts", color="#94a3b8"];
+  a24 -> o24 [label="yields", color="#94a3b8"];
+  o24 -> s25 [label="transitions", color="#64748b"];
+}

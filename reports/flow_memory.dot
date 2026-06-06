@@ -1,0 +1,23 @@
+
+digraph memory {
+  rankdir=LR; bgcolor="#0f172a"; fontname="Helvetica"; fontcolor="#e2e8f0";
+  node[fontname="Helvetica", style=filled, color="#475569", fontcolor="#0f172a"];
+  edge[color="#94a3b8", fontcolor="#cbd5e1", fontsize=10];
+  labelloc=t; fontsize=18; label="Memory + HydraDB dual path";
+
+  traj[label="finished trajectory", shape=box, fillcolor="#bbf7d0"];
+  idx[label="index_trajectory", shape=box, fillcolor="#bfdbfe"];
+  byoe[label="BYOE vectors\nembeddings.insert(vectors + graph metadata)\n(0 tokens)", shape=cylinder, fillcolor="#bfdbfe"];
+  kg[label="Managed graph\nupload.knowledge → entity/relation extraction\n(token usage)", shape=cylinder, fillcolor="#e9d5ff"];
+
+  newtask[label="new task / failure", shape=box, fillcolor="#fde68a"];
+  rtask[label="recall_for_task\nembeddings.search", shape=box, fillcolor="#bfdbfe"];
+  rerr[label="recall_for_error\nembeddings.search", shape=box, fillcolor="#bfdbfe"];
+  graphr[label="graph_recall\nfull_recall(graph_context)", shape=box, fillcolor="#e9d5ff"];
+  dec[label="informs the next Decision\nor the Heal guidance", shape=ellipse, fillcolor="#a7f3d0"];
+
+  traj->idx; idx->byoe; idx->kg;
+  newtask->rtask; newtask->rerr; newtask->graphr;
+  byoe->rtask[style=dashed]; byoe->rerr[style=dashed]; kg->graphr[style=dashed];
+  rtask->dec; rerr->dec; graphr->dec;
+}

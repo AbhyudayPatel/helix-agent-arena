@@ -1,0 +1,59 @@
+[
+  {
+    "task_id": "50e1ac9_1",
+    "split": "dev",
+    "instruction": "Give me a comma-separated list of top 4 most played r&b song titles from across my Spotify song, album and playlist libraries.",
+    "solved": false,
+    "num_steps": 22,
+    "num_errors": 2,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 2.3045,
+    "total_latency_s": 4.01,
+    "wall_time_s": 71.97,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "50e1ac9_2",
+    "split": "dev",
+    "instruction": "Give me a comma-separated list of top 6 most played edm song titles from across my Spotify song, album and playlist libraries.",
+    "solved": false,
+    "num_steps": 17,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 1.4111,
+    "total_latency_s": 1.25,
+    "wall_time_s": 50.43,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "50e1ac9_3",
+    "split": "dev",
+    "instruction": "Give me a comma-separated list of top 3 most played indie song titles from across my Spotify song, album and playlist libraries.",
+    "solved": false,
+    "num_steps": 17,
+    "num_errors": 3,
+    "num_recoveries": 1,
+    "recovery_rate": 0.333,
+    "world_model_accuracy": 0.5,
+    "total_cost_usd": 1.5483,
+    "total_latency_s": 1.84,
+    "wall_time_s": 62.04,
+    "evaluation": {
+      "success": false,
+      "difficulty": 2,
+      "num_tests": 2
+    }
+  }
+]

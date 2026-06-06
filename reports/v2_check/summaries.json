@@ -1,0 +1,78 @@
+[
+  {
+    "task_id": "2a163ab_2",
+    "split": "train",
+    "instruction": "Like all the venmo transactions from yesterday involving any of my siblings on my venmo social feed.",
+    "solved": true,
+    "num_steps": 18,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 2.0457,
+    "total_latency_s": 14.73,
+    "wall_time_s": 86.4,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 6
+    }
+  },
+  {
+    "task_id": "afc0fce_2",
+    "split": "train",
+    "instruction": "Add a comment, \"Thanks!\", to all the venmo payments I received from my friends in the last 7 days (including today), and like those payments.",
+    "solved": false,
+    "num_steps": 40,
+    "num_errors": 9,
+    "num_recoveries": 9,
+    "recovery_rate": 0.222,
+    "world_model_accuracy": 0.8,
+    "total_cost_usd": 8.5525,
+    "total_latency_s": 4.19,
+    "wall_time_s": 322.62,
+    "evaluation": {
+      "success": false,
+      "difficulty": 3,
+      "num_tests": 9
+    }
+  },
+  {
+    "task_id": "27e1026_1",
+    "split": "train",
+    "instruction": "What is the title of the oldest released song in my Spotify account from across my song, album and playlist libraries?",
+    "solved": true,
+    "num_steps": 27,
+    "num_errors": 5,
+    "num_recoveries": 12,
+    "recovery_rate": 0.4,
+    "world_model_accuracy": 0.846,
+    "total_cost_usd": 5.4142,
+    "total_latency_s": 3.31,
+    "wall_time_s": 288.61,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "29caf6f_1",
+    "split": "train",
+    "instruction": "Christopher has asked for my movie recommendations via phone text message. Reply to them with a list of comma-separated movie titles from my Simple Note account as per their request.",
+    "solved": true,
+    "num_steps": 25,
+    "num_errors": 2,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 3.2944,
+    "total_latency_s": 1.16,
+    "wall_time_s": 72.2,
+    "evaluation": {
+      "success": true,
+      "difficulty": 2,
+      "num_tests": 8
+    }
+  }
+]

@@ -1,0 +1,174 @@
+digraph trajectory {
+  rankdir=LR;
+  node [style=filled, fontname="Helvetica"];
+  graph [labelloc="t", fontsize=16, label="HELIX trajectory: 6c2c621_3 | solved=True | steps=17 errors=1 recoveries=0"];
+  s0 [shape=box, fillcolor="#bfdbfe", label="s0: Task received"];
+  m0 [shape=cylinder, fillcolor="#e2e8f0", label="m0: sim=1.00 Export all my Simple Note notes ...[+19]"];
+  m1 [shape=cylinder, fillcolor="#e2e8f0", label="m1: sim=1.00 Export all my Simple Note notes ...[+19]"];
+  m2 [shape=cylinder, fillcolor="#e2e8f0", label="m2: sim=0.47 In my file system, add the pref ...[+19]"];
+  d0 [shape=ellipse, fillcolor="#e2e8f0", label="d0: Plan: choose strategy"];
+  p0 [shape=diamond, fillcolor="#e9d5ff", label="p0: P=0.80: Authenticate to Simple Note and  ...[+14]"];
+  p1 [shape=diamond, fillcolor="#e9d5ff", label="p1: P=0.78: Fetch the complete list of note  ...[+14]"];
+  p2 [shape=diamond, fillcolor="#e9d5ff", label="p2: P=0.90: Use api_docs to discover the exa ...[+14]"];
+  d1 [shape=ellipse, fillcolor="#e2e8f0", label="d1: Bootstrap: ground in real account data"];
+  a0 [shape=note, fillcolor="#e2e8f0", label="a0: bootstrap discovery"];
+  o0 [shape=box, fillcolor="#bbf7d0", label="o0: === ACTIVE TASK ===
+{
+ 'instruction': 'E ...[+11]"];
+  s1 [shape=box, fillcolor="#e2e8f0", label="s1: S1: grounded"];
+  d2 [shape=ellipse, fillcolor="#e2e8f0", label="d2: Logging in to both apps."];
+  a1 [shape=note, fillcolor="#e2e8f0", label="a1: sn = apis.simple_note.login(username='pa ...[+23]"];
+  o1 [shape=box, fillcolor="#bbf7d0", label="o1: ok True True"];
+  s2 [shape=box, fillcolor="#e2e8f0", label="s2: S2: progressed"];
+  d3 [shape=ellipse, fillcolor="#e2e8f0", label="d3: Fetch all notes."];
+  a2 [shape=note, fillcolor="#e2e8f0", label="a2: notes = []"];
+  o2 [shape=box, fillcolor="#bbf7d0", label="o2: 38
+{
+ 'note_id': 2714,
+ 'title': 'Habit  ...[+10]"];
+  s3 [shape=box, fillcolor="#e2e8f0", label="s3: S3: progressed"];
+  d4 [shape=ellipse, fillcolor="#e2e8f0", label="d4: Check create_file and create_directory d ...[+28]"];
+  a3 [shape=note, fillcolor="#e2e8f0", label="a3: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o3 [shape=box, fillcolor="#bbf7d0", label="o3: {
+ 'app_name': 'file_system',
+ 'api_name ...[+11]"];
+  s4 [shape=box, fillcolor="#e2e8f0", label="s4: S4: progressed"];
+  d5 [shape=ellipse, fillcolor="#e2e8f0", label="d5: Create directory then write all notes."];
+  a4 [shape=note, fillcolor="#e2e8f0", label="a4: print(apis.file_system.create_directory( ...[+23]"];
+  o4 [shape=box, fillcolor="#bbf7d0", label="o4: {'message': 'Directory created.'}"];
+  s5 [shape=box, fillcolor="#e2e8f0", label="s5: S5: progressed"];
+  d6 [shape=ellipse, fillcolor="#e2e8f0", label="d6: Write each note as a markdown file.
+
+
+Ex ...[+29]"];
+  a5 [shape=note, fillcolor="#e2e8f0", label="a5: 38"];
+  o5 [shape=box, fillcolor="#fde68a", label="o5: ok (no output)"];
+  s6 [shape=box, fillcolor="#e2e8f0", label="s6: S6: progressed"];
+  d7 [shape=ellipse, fillcolor="#e2e8f0", label="d7: Verify the directory listing."];
+  a6 [shape=note, fillcolor="#e2e8f0", label="a6: listing = apis.file_system.show_director ...[+23]"];
+  o6 [shape=box, fillcolor="#bbf7d0", label="o6: 0"];
+  s7 [shape=box, fillcolor="#e2e8f0", label="s7: S7: progressed"];
+  d8 [shape=ellipse, fillcolor="#e2e8f0", label="d8: Empty listing - let me check return form ...[+18]"];
+  a7 [shape=note, fillcolor="#e2e8f0", label="a7: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o7 [shape=box, fillcolor="#bbf7d0", label="o7: {
+ 'app_name': 'file_system',
+ 'api_name ...[+11]"];
+  s8 [shape=box, fillcolor="#e2e8f0", label="s8: S8: progressed"];
+  d9 [shape=ellipse, fillcolor="#e2e8f0", label="d9: The listing returned 0 - let me check if ...[+29]"];
+  a8 [shape=note, fillcolor="#e2e8f0", label="a8: info = apis.file_system.show_file(access ...[+23]"];
+  o8 [shape=box, fillcolor="#fecaca", label="o8: error: Error"];
+  s9 [shape=box, fillcolor="#fecaca", label="s9: S9: error"];
+  d10 [shape=ellipse, fillcolor="#e2e8f0", label="d10: The files weren't actually created despi ...[+30]"];
+  a9 [shape=note, fillcolor="#e2e8f0", label="a9: res = apis.file_system.create_file(acces ...[+23]"];
+  o9 [shape=box, fillcolor="#bbf7d0", label="o9: {'message': 'File created.', 'file_path' ...[+10]"];
+  s10 [shape=box, fillcolor="#e2e8f0", label="s10: S10: progressed"];
+  d11 [shape=ellipse, fillcolor="#e2e8f0", label="d11: Good, file creation works now. The earli ...[+29]"];
+  a10 [shape=note, fillcolor="#e2e8f0", label="a10: print(apis.api_docs.show_api_doc(app_nam ...[+23]"];
+  o10 [shape=box, fillcolor="#bbf7d0", label="o10: [
+ {
+  'name': 'file_path',
+  'type': 's ...[+10]"];
+  s11 [shape=box, fillcolor="#e2e8f0", label="s11: S11: progressed"];
+  d12 [shape=ellipse, fillcolor="#e2e8f0", label="d12: act"];
+  a11 [shape=note, fillcolor="#e2e8f0", label="a11: results = []"];
+  o11 [shape=box, fillcolor="#bbf7d0", label="o11: 38"];
+  s12 [shape=box, fillcolor="#e2e8f0", label="s12: S12: progressed"];
+  d13 [shape=ellipse, fillcolor="#e2e8f0", label="d13: Wait — I sent two code blocks. Let me ve ...[+29]"];
+  a12 [shape=note, fillcolor="#e2e8f0", label="a12: listing = apis.file_system.show_director ...[+23]"];
+  o12 [shape=box, fillcolor="#bbf7d0", label="o12: len 39
+/home/patricia/backups/simple_not ...[+11]"];
+  s13 [shape=box, fillcolor="#e2e8f0", label="s13: S13: progressed"];
+  d14 [shape=ellipse, fillcolor="#e2e8f0", label="d14: 39 entries but I expected 38. The test_c ...[+30]"];
+  a13 [shape=note, fillcolor="#e2e8f0", label="a13: extra = [e for e in listing if 'test_che ...[+9]"];
+  o13 [shape=box, fillcolor="#bbf7d0", label="o13: test_check present: ['/home/patricia/bac ...[+10]"];
+  s14 [shape=box, fillcolor="#e2e8f0", label="s14: S14: progressed"];
+  d15 [shape=ellipse, fillcolor="#e2e8f0", label="d15: test_check.md remains. I have 38 expecte ...[+29]"];
+  a14 [shape=note, fillcolor="#e2e8f0", label="a14: print(apis.file_system.delete_file(acces ...[+23]"];
+  o14 [shape=box, fillcolor="#bbf7d0", label="o14: {'message': 'File deleted.', 'file_path' ...[+9]"];
+  s15 [shape=box, fillcolor="#e2e8f0", label="s15: S15: progressed"];
+  d16 [shape=ellipse, fillcolor="#e2e8f0", label="d16: Verify final state: 38 files matching ex ...[+7]"];
+  a15 [shape=note, fillcolor="#e2e8f0", label="a15: final = apis.file_system.show_directory( ...[+23]"];
+  o15 [shape=box, fillcolor="#bbf7d0", label="o15: len 38
+matches expected: True
+missing: s ...[+9]"];
+  s16 [shape=box, fillcolor="#e2e8f0", label="s16: S16: progressed"];
+  d17 [shape=ellipse, fillcolor="#e2e8f0", label="d17: All 38 notes exported correctly."];
+  a16 [shape=note, fillcolor="#e2e8f0", label="a16: print(apis.supervisor.complete_task(stat ...[+14]"];
+  o16 [shape=box, fillcolor="#bbf7d0", label="o16: {'message': 'Marked the active task comp ...[+8]"];
+  s17 [shape=box, fillcolor="#a7f3d0", label="s17: S17: progressed"];
+  s0 -> d0 [label="decides", color="#94a3b8"];
+  d0 -> p0 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p1 [label="predicts", style=dashed, color="#a855f7"];
+  d0 -> p2 [label="predicts", style=dashed, color="#a855f7"];
+  s0 -> d1 [label="decides", color="#94a3b8"];
+  d1 -> a0 [label="acts", color="#94a3b8"];
+  a0 -> o0 [label="yields", color="#94a3b8"];
+  o0 -> s1 [label="transitions", color="#64748b"];
+  s1 -> d2 [label="decides", color="#94a3b8"];
+  m0 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  m1 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  m2 -> d2 [label="informs", style=dashed, color="#3b82f6"];
+  d2 -> a1 [label="acts", color="#94a3b8"];
+  a1 -> o1 [label="yields", color="#94a3b8"];
+  o1 -> s2 [label="transitions", color="#64748b"];
+  s2 -> d3 [label="decides", color="#94a3b8"];
+  d3 -> a2 [label="acts", color="#94a3b8"];
+  a2 -> o2 [label="yields", color="#94a3b8"];
+  o2 -> s3 [label="transitions", color="#64748b"];
+  s3 -> d4 [label="decides", color="#94a3b8"];
+  d4 -> a3 [label="acts", color="#94a3b8"];
+  a3 -> o3 [label="yields", color="#94a3b8"];
+  o3 -> s4 [label="transitions", color="#64748b"];
+  s4 -> d5 [label="decides", color="#94a3b8"];
+  d5 -> a4 [label="acts", color="#94a3b8"];
+  a4 -> o4 [label="yields", color="#94a3b8"];
+  o4 -> s5 [label="transitions", color="#64748b"];
+  s5 -> d6 [label="decides", color="#94a3b8"];
+  d6 -> a5 [label="acts", color="#94a3b8"];
+  a5 -> o5 [label="yields", color="#94a3b8"];
+  o5 -> s6 [label="transitions", color="#64748b"];
+  s6 -> d7 [label="decides", color="#94a3b8"];
+  d7 -> a6 [label="acts", color="#94a3b8"];
+  a6 -> o6 [label="yields", color="#94a3b8"];
+  o6 -> s7 [label="transitions", color="#64748b"];
+  s7 -> d8 [label="decides", color="#94a3b8"];
+  d8 -> a7 [label="acts", color="#94a3b8"];
+  a7 -> o7 [label="yields", color="#94a3b8"];
+  o7 -> s8 [label="transitions", color="#64748b"];
+  s8 -> d9 [label="decides", color="#94a3b8"];
+  d9 -> a8 [label="acts", color="#94a3b8"];
+  a8 -> o8 [label="yields", color="#94a3b8"];
+  o8 -> s9 [label="transitions", color="#64748b"];
+  s9 -> d10 [label="decides", color="#94a3b8"];
+  d10 -> a9 [label="acts", color="#94a3b8"];
+  a9 -> o9 [label="yields", color="#94a3b8"];
+  o9 -> s10 [label="transitions", color="#64748b"];
+  s10 -> d11 [label="decides", color="#94a3b8"];
+  d11 -> a10 [label="acts", color="#94a3b8"];
+  a10 -> o10 [label="yields", color="#94a3b8"];
+  o10 -> s11 [label="transitions", color="#64748b"];
+  s11 -> d12 [label="decides", color="#94a3b8"];
+  d12 -> a11 [label="acts", color="#94a3b8"];
+  a11 -> o11 [label="yields", color="#94a3b8"];
+  o11 -> s12 [label="transitions", color="#64748b"];
+  s12 -> d13 [label="decides", color="#94a3b8"];
+  d13 -> a12 [label="acts", color="#94a3b8"];
+  a12 -> o12 [label="yields", color="#94a3b8"];
+  o12 -> s13 [label="transitions", color="#64748b"];
+  s13 -> d14 [label="decides", color="#94a3b8"];
+  d14 -> a13 [label="acts", color="#94a3b8"];
+  a13 -> o13 [label="yields", color="#94a3b8"];
+  o13 -> s14 [label="transitions", color="#64748b"];
+  s14 -> d15 [label="decides", color="#94a3b8"];
+  d15 -> a14 [label="acts", color="#94a3b8"];
+  a14 -> o14 [label="yields", color="#94a3b8"];
+  o14 -> s15 [label="transitions", color="#64748b"];
+  s15 -> d16 [label="decides", color="#94a3b8"];
+  d16 -> a15 [label="acts", color="#94a3b8"];
+  a15 -> o15 [label="yields", color="#94a3b8"];
+  o15 -> s16 [label="transitions", color="#64748b"];
+  s16 -> d17 [label="decides", color="#94a3b8"];
+  d17 -> a16 [label="acts", color="#94a3b8"];
+  a16 -> o16 [label="yields", color="#94a3b8"];
+  o16 -> s17 [label="transitions", color="#64748b"];
+}

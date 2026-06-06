@@ -1,0 +1,21 @@
+[project]
+name = "helix-trajectory"
+version = "0.1.0"
+description = "HELIX - Trajectory Intelligence Platform for self-healing autonomous agents, benchmarked on AppWorld"
+requires-python = ">=3.11"
+dependencies = [
+  "anthropic>=0.40",
+  "openai>=1.40",
+  "networkx>=3.0",
+  "graphviz>=0.20",
+  "jinja2>=3.1",
+  "numpy",
+  "rich",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["helix", "helix.memory"]

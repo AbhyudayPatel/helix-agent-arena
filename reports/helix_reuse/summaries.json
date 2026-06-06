@@ -1,0 +1,59 @@
+[
+  {
+    "task_id": "82e2fac_1",
+    "split": "train",
+    "instruction": "What is the title of the most-liked song in my Spotify playlists.",
+    "solved": true,
+    "num_steps": 13,
+    "num_errors": 3,
+    "num_recoveries": 2,
+    "recovery_rate": 0.333,
+    "world_model_accuracy": 0.667,
+    "total_cost_usd": 1.0601,
+    "total_latency_s": 3.43,
+    "wall_time_s": 73.87,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "82e2fac_2",
+    "split": "train",
+    "instruction": "What is the title of the least-played song in my Spotify song library.",
+    "solved": true,
+    "num_steps": 11,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 1.0,
+    "total_cost_usd": 0.8355,
+    "total_latency_s": 1.35,
+    "wall_time_s": 31.5,
+    "evaluation": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  },
+  {
+    "task_id": "82e2fac_3",
+    "split": "train",
+    "instruction": "What is the title of the most-played song in my Spotify album library.",
+    "solved": false,
+    "num_steps": 8,
+    "num_errors": 1,
+    "num_recoveries": 0,
+    "recovery_rate": 0.0,
+    "world_model_accuracy": 0.0,
+    "total_cost_usd": 0.6734,
+    "total_latency_s": 0.45,
+    "wall_time_s": 30.62,
+    "evaluation": {
+      "success": false,
+      "difficulty": 1,
+      "num_tests": 2
+    }
+  }
+]

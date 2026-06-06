@@ -1,0 +1,242 @@
+{
+  "num_trajectories": 87,
+  "solved": 60,
+  "task_goal_completion_pct": 69.0,
+  "failure_error_types": {
+    "NameError": 31,
+    "Error": 26,
+    "KeyError": 2,
+    "TypeError": 2,
+    "IndexError": 1
+  },
+  "per_template": {
+    "0d8a4ee": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "22cc237": {
+      "n": 3,
+      "solved": 2,
+      "tgc_pct": 66.7
+    },
+    "23cf851": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "27e1026": {
+      "n": 3,
+      "solved": 2,
+      "tgc_pct": 66.7
+    },
+    "287e338": {
+      "n": 3,
+      "solved": 2,
+      "tgc_pct": 66.7
+    },
+    "29caf6f": {
+      "n": 3,
+      "solved": 1,
+      "tgc_pct": 33.3
+    },
+    "2a163ab": {
+      "n": 3,
+      "solved": 1,
+      "tgc_pct": 33.3
+    },
+    "37a8675": {
+      "n": 3,
+      "solved": 2,
+      "tgc_pct": 66.7
+    },
+    "383cbac": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "396c5a2": {
+      "n": 3,
+      "solved": 1,
+      "tgc_pct": 33.3
+    },
+    "3ab5b8b": {
+      "n": 3,
+      "solved": 2,
+      "tgc_pct": 66.7
+    },
+    "4ec8de5": {
+      "n": 3,
+      "solved": 0,
+      "tgc_pct": 0.0
+    },
+    "4fab96f": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "50e1ac9": {
+      "n": 3,
+      "solved": 1,
+      "tgc_pct": 33.3
+    },
+    "530b157": {
+      "n": 3,
+      "solved": 1,
+      "tgc_pct": 33.3
+    },
+    "57c3486": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "6104387": {
+      "n": 3,
+      "solved": 2,
+      "tgc_pct": 66.7
+    },
+    "6171bbc": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "68ee2c9": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "692c77d": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "6bdbc26": {
+      "n": 3,
+      "solved": 0,
+      "tgc_pct": 0.0
+    },
+    "6c2c621": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "82e2fac": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "afc0fce": {
+      "n": 3,
+      "solved": 2,
+      "tgc_pct": 66.7
+    },
+    "b119b1f": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "d0b1f43": {
+      "n": 3,
+      "solved": 0,
+      "tgc_pct": 0.0
+    },
+    "d4e9306": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "df61dc5": {
+      "n": 3,
+      "solved": 3,
+      "tgc_pct": 100.0
+    },
+    "fac291d": {
+      "n": 3,
+      "solved": 2,
+      "tgc_pct": 66.7
+    }
+  },
+  "world_model": {
+    "n": 215,
+    "accuracy_pct": 80.5,
+    "brier": 0.1571,
+    "calibration": {
+      "low(<0.5)": {
+        "n": 8,
+        "actual_solve_rate": 75.0
+      },
+      "high(>=0.5)": {
+        "n": 207,
+        "actual_solve_rate": 82.6
+      }
+    }
+  },
+  "knowledge_reuse": {
+    "tasks_informed": 54,
+    "solve_rate_with_memory_pct": 75.9,
+    "solve_rate_without_memory_pct": 57.6
+  },
+  "recovery": {
+    "error_outcomes": 163,
+    "recovered": 46,
+    "recovery_rate_pct": 28.2
+  },
+  "avg_steps": 14.97,
+  "avg_cost_usd": 2.0502,
+  "total_cost_usd": 178.3702,
+  "avg_wall_s": 94.52,
+  "most_expensive": [
+    {
+      "task": "2a163ab_2",
+      "cost": 6.402,
+      "solved": false
+    },
+    {
+      "task": "37a8675_1",
+      "cost": 5.8975,
+      "solved": true
+    },
+    {
+      "task": "afc0fce_1",
+      "cost": 5.807,
+      "solved": true
+    },
+    {
+      "task": "22cc237_1",
+      "cost": 5.4736,
+      "solved": true
+    },
+    {
+      "task": "6104387_2",
+      "cost": 4.7151,
+      "solved": false
+    }
+  ],
+  "slowest": [
+    {
+      "task": "22cc237_1",
+      "wall_s": 342.64,
+      "steps": 26
+    },
+    {
+      "task": "37a8675_1",
+      "wall_s": 299.4,
+      "steps": 24
+    },
+    {
+      "task": "afc0fce_1",
+      "wall_s": 276.67,
+      "steps": 25
+    },
+    {
+      "task": "29caf6f_2",
+      "wall_s": 257.54,
+      "steps": 22
+    },
+    {
+      "task": "6104387_2",
+      "wall_s": 256.24,
+      "steps": 24
+    }
+  ]
+}
