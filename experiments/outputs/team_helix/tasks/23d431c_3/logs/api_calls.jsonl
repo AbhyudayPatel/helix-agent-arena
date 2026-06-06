@@ -1,0 +1,106 @@
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "login"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "login"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chelsea-burch@gmail.com", "password": "sQW-!iq"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "show_order_history"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "order"}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "page_index": 0}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "page_index": 1}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "page_index": 2}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "page_index": 3}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "page_index": 4}}
+{"method": "get", "url": "/amazon/products/1406", "data": {}}
+{"method": "get", "url": "/amazon/products/401", "data": {}}
+{"method": "get", "url": "/amazon/products/1610", "data": {}}
+{"method": "get", "url": "/amazon/products/2104", "data": {}}
+{"method": "get", "url": "/amazon/products/1295", "data": {}}
+{"method": "get", "url": "/amazon/products/2213", "data": {}}
+{"method": "get", "url": "/amazon/products/2339", "data": {}}
+{"method": "get", "url": "/amazon/products/2508", "data": {}}
+{"method": "get", "url": "/amazon/products/1263", "data": {}}
+{"method": "get", "url": "/amazon/products/1432", "data": {}}
+{"method": "get", "url": "/amazon/products/1494", "data": {}}
+{"method": "get", "url": "/amazon/products/2063", "data": {}}
+{"method": "get", "url": "/amazon/products/394", "data": {}}
+{"method": "get", "url": "/amazon/products/529", "data": {}}
+{"method": "get", "url": "/amazon/products/2410", "data": {}}
+{"method": "get", "url": "/amazon/products/455", "data": {}}
+{"method": "get", "url": "/amazon/products/733", "data": {}}
+{"method": "get", "url": "/amazon/products/1348", "data": {}}
+{"method": "get", "url": "/amazon/products/2468", "data": {}}
+{"method": "get", "url": "/amazon/products/1492", "data": {}}
+{"method": "get", "url": "/amazon/products/2342", "data": {}}
+{"method": "get", "url": "/amazon/products/2502", "data": {}}
+{"method": "get", "url": "/amazon/products/65", "data": {}}
+{"method": "get", "url": "/amazon/products/571", "data": {}}
+{"method": "get", "url": "/amazon/products/633", "data": {}}
+{"method": "get", "url": "/amazon/products/436", "data": {}}
+{"method": "get", "url": "/amazon/products/1417", "data": {}}
+{"method": "get", "url": "/amazon/products/2208", "data": {}}
+{"method": "get", "url": "/amazon/products/428", "data": {}}
+{"method": "get", "url": "/amazon/products/536", "data": {}}
+{"method": "get", "url": "/amazon/products/2080", "data": {}}
+{"method": "get", "url": "/amazon/products/562", "data": {}}
+{"method": "get", "url": "/amazon/products/2245", "data": {}}
+{"method": "get", "url": "/amazon/products/2457", "data": {}}
+{"method": "get", "url": "/amazon/products/361", "data": {}}
+{"method": "get", "url": "/amazon/products/2119", "data": {}}
+{"method": "get", "url": "/amazon/products/2589", "data": {}}
+{"method": "get", "url": "/amazon/products/2655", "data": {}}
+{"method": "get", "url": "/amazon/products/2120", "data": {}}
+{"method": "get", "url": "/amazon/products/2511", "data": {}}
+{"method": "get", "url": "/amazon/products/559", "data": {}}
+{"method": "get", "url": "/amazon/products/1205", "data": {}}
+{"method": "get", "url": "/amazon/products/1498", "data": {}}
+{"method": "get", "url": "/amazon/products/1529", "data": {}}
+{"method": "get", "url": "/amazon/products/18", "data": {}}
+{"method": "get", "url": "/amazon/products/2300", "data": {}}
+{"method": "get", "url": "/amazon/products/2408", "data": {}}
+{"method": "get", "url": "/amazon/products/457", "data": {}}
+{"method": "get", "url": "/amazon/products/1462", "data": {}}
+{"method": "get", "url": "/amazon/products/1535", "data": {}}
+{"method": "get", "url": "/amazon/products/1338", "data": {}}
+{"method": "get", "url": "/amazon/products/1391", "data": {}}
+{"method": "get", "url": "/amazon/products/36", "data": {}}
+{"method": "get", "url": "/amazon/products/2118", "data": {}}
+{"method": "get", "url": "/amazon/products/741", "data": {}}
+{"method": "get", "url": "/amazon/products/1242", "data": {}}
+{"method": "get", "url": "/amazon/products/1460", "data": {}}
+{"method": "get", "url": "/amazon/products/2635", "data": {}}
+{"method": "get", "url": "/amazon/products/1280", "data": {}}
+{"method": "get", "url": "/amazon/products/2153", "data": {}}
+{"method": "get", "url": "/amazon/products/679", "data": {}}
+{"method": "get", "url": "/amazon/products/1320", "data": {}}
+{"method": "get", "url": "/amazon/products/2687", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "search_products"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "search_products"}}
+{"method": "get", "url": "/amazon/products", "data": {"query": "watch", "max_price": 110, "page_index": 0}}
+{"method": "post", "url": "/amazon/cart/1406", "data": {"quantity": 1}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "login"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chelsea-burch@gmail.com", "password": "sQW-!iq"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "add_product_to_cart"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chelsea-burch@gmail.com", "password": "sQW-!iq"}}
+{"method": "post", "url": "/amazon/cart/1406", "data": {"quantity": 1, "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.jr55JVoEtzieWH9ucJQf0lct5N-mHoUMl_TfQca7YMI"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "place_order"}}
+{"method": "get", "url": "/amazon/account", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.jr55JVoEtzieWH9ucJQf0lct5N-mHoUMl_TfQca7YMI"}}
+{"method": "get", "url": "/amazon/account", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.jr55JVoEtzieWH9ucJQf0lct5N-mHoUMl_TfQca7YMI"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "address"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "payment"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "show_addresses"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "show_payment_methods"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3NDF9.7lU6bDdlaAYMxMMpJ2m3vKAoVVx6GOOjorBLKWhu9Jg"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "show_payment_methods"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "payment_methods"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}

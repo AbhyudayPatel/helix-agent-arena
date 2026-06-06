@@ -15,12 +15,14 @@ ReAct code loop → live monitor (loops/errors/stalls) → self-healer (recall +
 won't repeat a failed fix) → **verification gate** before finishing → trajectory indexed to
 HydraDB for reuse.
 
-## Agent architecture
+## Self-healing trajectory (real run)
 
-![HELIX architecture](reports/architecture.svg)
+A real task that **recovered 18 times and still solved** — `State→Decision→Action→Outcome`
+with the monitor catching failures and the self-healer recovering (red `recovers` edges):
 
-Per-task it records a `State→Decision→Action→Outcome` graph and acts on it live. Deep dive in
-[`ARCHITECTURE.md`](ARCHITECTURE.md) (with control-flow, monitor and memory diagrams).
+![HELIX self-healing trajectory](reports/healing_flow.svg)
+
+Deep dive in [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 ---
 

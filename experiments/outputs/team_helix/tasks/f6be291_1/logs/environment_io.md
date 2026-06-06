@@ -3539,3 +3539,447 @@ print(threads)
 ]
 ```
 
+
+### Environment Interaction 37
+----------------------------------------------------------------------------
+```python
+print(apis.api_docs.show_api_descriptions(app_name='gmail'))
+token_str = apis.gmail.login(username='pa_ritter@gmail.com', password='}v0#GvJ')['access_token']
+email_2282 = apis.gmail.show_email(access_token=token_str, email_id=2282)
+print(email_2282.get('body', ''))
+```
+
+```
+[
+ {
+  "name": "show_account",
+  "description": "Show your account information. Unlike show_profile, this includes private information."
+ },
+ {
+  "name": "signup",
+  "description": "Sign up to create account."
+ },
+ {
+  "name": "delete_account",
+  "description": "Delete your account."
+ },
+ {
+  "name": "update_account_name",
+  "description": "Update your first or last name in the account profile."
+ },
+ {
+  "name": "login",
+  "description": "Login to your account."
+ },
+ {
+  "name": "logout",
+  "description": "Logout from your account."
+ },
+ {
+  "name": "send_password_reset_code",
+  "description": "Send password reset code to your email address."
+ },
+ {
+  "name": "reset_password",
+  "description": "Reset your password using the password reset code sent to your email address."
+ },
+ {
+  "name": "show_profile",
+  "description": "Show public profile information of a user."
+ },
+ {
+  "name": "search_users",
+  "description": "Search Gmail users by name or email address."
+ },
+ {
+  "name": "show_inbox_threads",
+  "description": "Show or search email threads you have received. This will not show detailed information about emails within the thread."
+ },
+ {
+  "name": "show_outbox_threads",
+  "description": "Show or search email threads you have sent. This will not show detailed information about emails within the thread."
+ },
+ {
+  "name": "show_archived_threads",
+  "description": "Show or search email threads you have archived. This will not show detailed information about emails within the thread."
+ },
+ {
+  "name": "show_spam_threads",
+  "description": "Show or search email threads that have been marked as spam. This will not show detailed information about emails within the thread."
+ },
+ {
+  "name": "show_category_sizes",
+  "description": "Show the number of email threads in each category of inbox, outbox, archived, spam, and the number of unscheduled and scheduled email drafts."
+ },
+ {
+  "name": "show_thread",
+  "description": "Show detailed information about a given email thread, including emails and drafts within it."
+ },
+ {
+  "name": "delete_thread",
+  "description": "Delete an email thread."
+ },
+ {
+  "name": "show_email",
+  "description": "Show detailed information about a given email."
+ },
+ {
+  "name": "label_thread",
+  "description": "Label an email thread."
+ },
+ {
+  "name": "unlabel_thread",
+  "description": "Remove label from an email thread."
+ },
+ {
+  "name": "mark_thread_read",
+  "description": "Mark an email thread as read."
+ },
+ {
+  "name": "mark_thread_unread",
+  "description": "Mark an email thread as unread."
+ },
+ {
+  "name": "mark_thread_archived",
+  "description": "Mark an email thread as archived."
+ },
+ {
+  "name": "mark_thread_unarchived",
+  "description": "Mark an email thread as unarchived."
+ },
+ {
+  "name": "mark_thread_spam",
+  "description": "Mark an email thread as spam."
+ },
+ {
+  "name": "mark_thread_not_spam",
+  "description": "Mark an email thread as not spam."
+ },
+ {
+  "name": "mark_thread_starred",
+  "description": "Mark an email thread as starred."
+ },
+ {
+  "name": "mark_thread_unstarred",
+  "description": "Mark an email thread as unstarred."
+ },
+ {
+  "name": "delete_email_in_thread",
+  "description": "Delete an email in a thread."
+ },
+ {
+  "name": "send_email",
+  "description": "Send a new email to one or more recipients."
+ },
+ {
+  "name": "reply_to_email",
+  "description": "Reply to an existing email in a thread."
+ },
+ {
+  "name": "forward_email_from_thread",
+  "description": "Forward an email from an email thread to one or more recipients."
+ },
+ {
+  "name": "forward_email_thread",
+  "description": "Forward entire email thread to one or more recipients."
+ },
+ {
+  "name": "show_drafts",
+  "description": "Show a list of user drafts."
+ },
+ {
+  "name": "create_draft",
+  "description": "Create a new draft."
+ },
+ {
+  "name": "show_draft",
+  "description": "Show detailed draft information."
+ },
+ {
+  "name": "delete_draft",
+  "description": "Delete draft information."
+ },
+ {
+  "name": "update_draft",
+  "description": "Update draft information."
+ },
+ {
+  "name": "send_email_from_draft",
+  "description": "Send a new email from a draft right away."
+ },
+ {
+  "name": "download_attachment",
+  "description": "Download a file attachment."
+ },
+ {
+  "name": "upload_attachments_to_draft",
+  "description": "Upload attachments to a draft."
+ },
+ {
+  "name": "remove_attachment_from_draft",
+  "description": "Delete an attachment from a draft."
+ }
+]
+Hello team,
+
+Please find attached the sales update for this month. Let's discuss the highlights in our upcoming team meeting.
+
+Best,
+Eric
+```
+
+
+### Environment Interaction 38
+----------------------------------------------------------------------------
+```python
+token_str = apis.gmail.login(username='pa_ritter@gmail.com', password='}v0#GvJ')['access_token']
+for eid in [2282, 20868, 2273, 1078]:
+    e = apis.gmail.show_email(access_token=token_str, email_id=eid)
+    print('ID:', eid, 'Subject:', e.get('subject'), 'From:', e.get('sender',{}).get('email'))
+    print('Body:', e.get('body',''))
+    print('Attachments:', e.get('attachments'))
+    print('---')
+```
+
+```
+ID: 2282 Subject: Monthly Sales Update From: eric.bailey@gmail.com
+Body: Hello team,
+
+Please find attached the sales update for this month. Let's discuss the highlights in our upcoming team meeting.
+
+Best,
+Eric
+Attachments: [{'id': 224, 'file_name': 'monthly_sales_report.pdf'}]
+---
+ID: 20868 Subject: Get-together Invitee From: br_ritt@gmail.com
+Body: Have you invited all of your {natural_join(invitee_relations)}?
+Attachments: []
+---
+ID: 2273 Subject: Reminder: Expense Report Submission From: eric.bailey@gmail.com
+Body: Dear team,
+
+A friendly reminder to submit your expense reports for the recent business trip by end of today. Please ensure that all receipts are attached and expenses are properly categorized. Let's keep our financial records accurate and up to date.
+
+Regards,
+Eric
+Attachments: []
+---
+ID: 1078 Subject: IT Helpdesk Satisfaction Survey From: eric.bailey@gmail.com
+Body: Dear team,
+
+We would like to gather your feedback on our IT helpdesk services. Please take a few minutes to complete the attached survey and share your thoughts. Your input will help us improve our support and provide better service to our clients. https://forms.google.com/jfewpflqwer .
+
+Thank you,
+Eric
+
+Attachments: []
+---
+```
+
+
+### Environment Interaction 39
+----------------------------------------------------------------------------
+```python
+token_str = apis.gmail.login(username='pa_ritter@gmail.com', password='}v0#GvJ')['access_token']
+print(apis.api_docs.show_api_descriptions(app_name='gmail'))
+search_result = apis.gmail.search_emails(access_token=token_str, query='from:br_ritt@gmail.com')
+print(search_result)
+```
+
+```
+Execution failed. Traceback:
+  File "<python-input>", line 3, in <module>
+    search_result = apis.gmail.search_emails(access_token=token_str, query='from:br_ritt@gmail.com')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: No API named 'search_emails' found in the gmail app.
+```
+
+
+### Environment Interaction 40
+----------------------------------------------------------------------------
+```python
+print(apis.api_docs.show_api_doc(app_name='gmail', api_name='show_inbox_threads'))
+token_str = apis.gmail.login(username='pa_ritter@gmail.com', password='}v0#GvJ')['access_token']
+threads = apis.gmail.show_inbox_threads(access_token=token_str)
+for thread in threads:
+    for email_id in thread.get('email_ids', []):
+        email = apis.gmail.show_email(access_token=token_str, email_id=email_id)
+        if email.get('sender', {}).get('email') == 'br_ritt@gmail.com':
+            print('Email ID:', email_id, 'Subject:', email.get('subject'), 'Body:', email.get('body', ''))
+```
+
+```
+{
+ "app_name": "gmail",
+ "api_name": "show_inbox_threads",
+ "path": "/email_threads/category/inbox",
+ "method": "GET",
+ "description": "Show or search email threads you have received. This will not show detailed information about emails within the thread.",
+ "parameters": [
+  {
+   "name": "access_token",
+   "type": "string",
+   "required": true,
+   "description": "Access token obtained from gmail app login.",
+   "default": null,
+   "constraints": []
+  },
+  {
+   "name": "query",
+   "type": "string",
+   "required": false,
+   "description": "The search query string.",
+   "default": "",
+   "constraints": []
+  },
+  {
+   "name": "label",
+   "type": "string",
+   "required": false,
+   "description": "The label to filter the emails by.",
+   "default": null,
+   "constraints": []
+  },
+  {
+   "name": "starred",
+   "type": "boolean",
+   "required": false,
+   "description": "Filter emails by starred status.",
+   "default": null,
+   "constraints": []
+  },
+  {
+   "name": "archived",
+   "type": "boolean",
+   "required": false,
+   "description": "Filter emails by archived status.",
+   "default": false,
+   "constraints": []
+  },
+  {
+   "name": "spam",
+   "type": "boolean",
+   "required": false,
+   "description": "Filter emails by spam status.",
+   "default": false,
+   "constraints": []
+  },
+  {
+   "name": "read",
+   "type": "boolean",
+   "required": false,
+   "description": "Filter emails by read status.",
+   "default": null,
+   "constraints": []
+  },
+  {
+   "name": "attachment",
+   "type": "boolean",
+   "required": false,
+   "description": "Filter emails by whether they have an attachment or not.",
+   "default": null,
+   "constraints": []
+  },
+  {
+   "name": "from_email",
+   "type": "string",
+   "required": false,
+   "description": "Filter emails by sender email address.",
+   "default": null,
+   "constraints": [
+    "value is email address"
+   ]
+  },
+  {
+   "name": "to_email",
+   "type": "string",
+   "required": false,
+   "description": "Filter emails by recipient email address.",
+   "default": null,
+   "constraints": [
+    "value is email address"
+   ]
+  },
+  {
+   "name": "min_created_at",
+   "type": "string",
+   "required": false,
+   "description": "Filter emails by minimum created_at date in YYYY-MM-DD format.",
+   "default": "1500-01-01",
+   "constraints": []
+  },
+  {
+   "name": "max_created_at",
+   "type": "string",
+   "required": false,
+   "description": "Filter emails by maximum created_at date in YYYY-MM-DD format.",
+   "default": "3000-01-01",
+   "constraints": []
+  },
+  {
+   "name": "page_index",
+   "type": "integer",
+   "required": false,
+   "description": "The index of the page to return.",
+   "default": 0,
+   "constraints": [
+    "value >= 0.0"
+   ]
+  },
+  {
+   "name": "page_limit",
+   "type": "integer",
+   "required": false,
+   "description": "The maximum number of results to return per page.",
+   "default": 5,
+   "constraints": [
+    "value >= 1.0, <= 20.0"
+   ]
+  },
+  {
+   "name": "sort_by",
+   "type": "string",
+   "required": false,
+   "description": "The attribute to sort the email threads by prefixed with +/- to reflect ascending/descending. Valid attributes: created_at and updated_at. If both query and sort_by are given and non-empty, results will be first ranked by query relevance, then paginated, and will then be sorted by the given attribute within each page. If both query and sort_by are not given, null, or empty, sort_by will default to -updated_at.",
+   "default": null,
+   "constraints": []
+  }
+ ],
+ "response_schemas": {
+  "success": [
+   {
+    "email_thread_id": 1,
+    "email_ids": [
+     1
+    ],
+    "draft_ids": [
+     1
+    ],
+    "incoming": true,
+    "outgoing": true,
+    "read": true,
+    "label": "string",
+    "starred": true,
+    "archived": true,
+    "spam": true,
+    "created_at": "2019-01-01T00:00:00",
+    "updated_at": "2019-01-01T00:00:00",
+    "subject": "string",
+    "participants": [
+     {
+      "name": "string",
+      "email": "user@example.com"
+     }
+    ]
+   }
+  ],
+  "failure": {
+   "message": "string"
+  }
+ }
+}
+Email ID: 20872 Subject: Running Late for Dinner Body: ... please don't wait for me today.
+Email ID: 20868 Subject: Get-together Invitee Body: Have you invited all of your {natural_join(invitee_relations)}?
+Email ID: 20870 Subject: Re: Re: Get-together Invitee Body: I am done too. I am preparing the shopping list now.
+```
+
