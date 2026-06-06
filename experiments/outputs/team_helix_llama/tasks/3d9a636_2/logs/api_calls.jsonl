@@ -1,0 +1,6 @@
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "venmo"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "venmo", "api_name": "login"}}

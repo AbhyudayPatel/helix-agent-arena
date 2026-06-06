@@ -1,0 +1,42 @@
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "file_system"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "spotify"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "file_system", "api_name": "login"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "file_system", "api_name": "show_directory"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "spotify", "api_name": "login"}}
+{"method": "post", "url": "/file_system/auth/token", "data": {"username": "carbrown@gmail.com", "password": "4k9jcny"}}
+{"method": "post", "url": "/spotify/auth/token", "data": {"username": "carbrown@gmail.com", "password": "3a-m^o6"}}
+{"method": "get", "url": "/file_system/directory", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmaWxlX3N5c3RlbStjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.xJKEGHX16bg9nuz5_q95NYJ9SGTbKDMa_8BnohmmQPs", "directory_path": "/", "recursive": true, "entry_type": "files"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "spotify"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "spotify"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "spotify"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "playback current song playing"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "skip next song"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "download song"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "skip next"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "downloaded"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "spotify", "api_name": "show_song_privates"}}
+{"method": "get", "url": "/spotify/music_player/current_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/songs/322/privates", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "post", "url": "/spotify/music_player/next_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/music_player/current_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/songs/40/privates", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "post", "url": "/spotify/music_player/next_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/music_player/current_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/songs/71/privates", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "post", "url": "/spotify/music_player/next_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/music_player/current_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/songs/50/privates", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "post", "url": "/spotify/music_player/next_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/music_player/current_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/songs/66/privates", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/music_player/current_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/songs/66/privates", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "Phantom Pain"}}
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/spotify/music_player/current_song", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "get", "url": "/spotify/songs/66/privates", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcG90aWZ5K2NhcmJyb3duQGdtYWlsLmNvbSIsImV4cCI6MTY4NDQxMjc0MX0.9d_I8NCxkjjw4tzQbeJq4JFYfr-NRaeA2tiTCvchMvw"}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "Phantom Pain"}}

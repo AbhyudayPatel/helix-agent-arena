@@ -1,0 +1,595 @@
+{
+  "experiment": "team_helix_sonnet_20",
+  "dataset": "test_normal",
+  "num_tasks": 20,
+  "num_solved": 14,
+  "task_goal_completion": 0.7,
+  "task_ids": [
+    "21abae1_1",
+    "21abae1_2",
+    "21abae1_3",
+    "29a7b7e_1",
+    "29a7b7e_2",
+    "29a7b7e_3",
+    "325d6ec_1",
+    "325d6ec_2",
+    "325d6ec_3",
+    "3d9a636_1",
+    "3d9a636_2",
+    "3d9a636_3",
+    "634f342_1",
+    "634f342_2",
+    "634f342_3",
+    "8749218_1",
+    "8749218_2",
+    "fd1f8fa_1",
+    "fd1f8fa_2",
+    "fd1f8fa_3"
+  ],
+  "aggregate": {
+    "aggregate": {
+      "task_goal_completion": 70.0,
+      "scenario_goal_completion": 57.1
+    },
+    "individual": {
+      "21abae1_1": {
+        "success": false,
+        "difficulty": 1,
+        "num_tests": 2,
+        "passes": [
+          {
+            "requirement": "assert no model changes.",
+            "label": "no_op_pass"
+          }
+        ],
+        "failures": [
+          {
+            "requirement": "assert answers match.",
+            "trace": "```python\nwith test(\n    \"\"\"\n    assert answers match.\n    \"\"\"\n):\n    test.case(ground_truth_answer, \"==\", predicted_answer, normalize=float, tolerance=0.51)\n```\n----------",
+            "label": "no_op_fail"
+          }
+        ]
+      },
+      "21abae1_2": {
+        "success": false,
+        "difficulty": 1,
+        "num_tests": 2,
+        "passes": [
+          {
+            "requirement": "assert no model changes.",
+            "label": "no_op_pass"
+          }
+        ],
+        "failures": [
+          {
+            "requirement": "assert answers match.",
+            "trace": "```python\nwith test(\n    \"\"\"\n    assert answers match.\n    \"\"\"\n):\n    test.case(ground_truth_answer, \"==\", predicted_answer, normalize=float, tolerance=0.51)\n```\n----------",
+            "label": "no_op_fail"
+          }
+        ]
+      },
+      "21abae1_3": {
+        "success": false,
+        "difficulty": 1,
+        "num_tests": 2,
+        "passes": [
+          {
+            "requirement": "assert no model changes.",
+            "label": "no_op_pass"
+          }
+        ],
+        "failures": [
+          {
+            "requirement": "assert answers match.",
+            "trace": "```python\nwith test(\n    \"\"\"\n    assert answers match.\n    \"\"\"\n):\n    test.case(ground_truth_answer, \"==\", predicted_answer, normalize=float, tolerance=0.51)\n```\n----------",
+            "label": "no_op_fail"
+          }
+        ]
+      },
+      "29a7b7e_1": {
+        "success": true,
+        "difficulty": 1,
+        "num_tests": 4,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match file_system.File.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "prepare start_file_path_to_content and end_file_path_to_content from start and end state of user.files,\nthen assert the files have been renamed (with proper content) as per private_data.meeting_start_to_end_file_path.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain all the file paths from start_file_path_to_content's keys that are not in\nprivate_data.meeting_start_to_end_file_path. These are the file_paths that should not have been renamed.\nAssert their paths and contents are identical in the start and the end state.",
+            "label": "no_op_pass"
+          }
+        ],
+        "failures": []
+      },
+      "29a7b7e_2": {
+        "success": true,
+        "difficulty": 1,
+        "num_tests": 4,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match file_system.File.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "prepare start_file_path_to_content and end_file_path_to_content from start and end state of user.files,\nthen assert the files have been renamed (with proper content) as per private_data.meeting_start_to_end_file_path.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain all the file paths from start_file_path_to_content's keys that are not in\nprivate_data.meeting_start_to_end_file_path. These are the file_paths that should not have been renamed.\nAssert their paths and contents are identical in the start and the end state.",
+            "label": "no_op_pass"
+          }
+        ],
+        "failures": []
+      },
+      "29a7b7e_3": {
+        "success": true,
+        "difficulty": 1,
+        "num_tests": 4,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match file_system.File.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "prepare start_file_path_to_content and end_file_path_to_content from start and end state of user.files,\nthen assert the files have been renamed (with proper content) as per private_data.meeting_start_to_end_file_path.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain all the file paths from start_file_path_to_content's keys that are not in\nprivate_data.meeting_start_to_end_file_path. These are the file_paths that should not have been renamed.\nAssert their paths and contents are identical in the start and the end state.",
+            "label": "no_op_pass"
+          }
+        ],
+        "failures": []
+      },
+      "325d6ec_1": {
+        "success": true,
+        "difficulty": 2,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.MusicPlayer.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, removed spotify.MusicPlayer records using models.changed_records,\nand assert 1 has been updated, and 0 have been added or removed.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert music player's cursor is on the song with private_data.target_song_id.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert updated music_player's changed_field_names is only {\"cursor_position\"}.",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "325d6ec_2": {
+        "success": false,
+        "difficulty": 2,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert model changes match spotify.MusicPlayer.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, removed spotify.MusicPlayer records using models.changed_records,\nand assert 1 has been updated, and 0 have been added or removed.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert music player's cursor is on the song with private_data.target_song_id.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert updated music_player's changed_field_names is only {\"cursor_position\"}.",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": [
+          {
+            "requirement": "assert answers match.",
+            "trace": "```python\nwith test(\n    \"\"\"\n    assert answers match.\n    \"\"\"\n):\n    test.answer(predicted_answer, ground_truth_answer)\n```\n----------\nAssertionError:  'phantom pain' == 'null'",
+            "label": "no_op_fail"
+          }
+        ]
+      },
+      "325d6ec_3": {
+        "success": false,
+        "difficulty": 2,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert model changes match spotify.MusicPlayer.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, removed spotify.MusicPlayer records using models.changed_records,\nand assert 1 has been updated, and 0 have been added or removed.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert music player's cursor is on the song with private_data.target_song_id.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert updated music_player's changed_field_names is only {\"cursor_position\"}.",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": [
+          {
+            "requirement": "assert answers match.",
+            "trace": "```python\nwith test(\n    \"\"\"\n    assert answers match.\n    \"\"\"\n):\n    test.answer(predicted_answer, ground_truth_answer)\n```\n----------\nAssertionError:  'bridges burned and rivers crossed' == 'null'",
+            "label": "no_op_fail"
+          }
+        ]
+      },
+      "3d9a636_1": {
+        "success": false,
+        "difficulty": 2,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match venmo.Friendship",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": [
+          {
+            "requirement": "obtain added, deleted friendships using models.changed_records\nand assert friend_ids of the added ones match private_data.to_befriend_venmo_user_ids (ignore_order)",
+            "trace": "```python\nwith test(\n    \"\"\"\n    obtain added, deleted friendships using models.changed_records\n    and assert friend_ids of the added ones match private_data.to_befriend_venmo_user_ids (ignore_order)\n    \"\"\"\n):\n    added_friendships, _, deleted_friendships = models.changed_records(\"venmo.Friendship\")\n    added_friend_ids = list_of(added_friendships, \"friend_id\")\n```\n----------\nAssertionError:\n[1, 15, 32, 33, 34, 35, 36, 43, 45, 49, 60, 68, 76, 81, 89, 97, 98]\n==\n[15, 43, 60, 97]\n\nIn left but not right:\n[1, 32, 33, 34, 35, 36, 45, 49, 68, 76, 81, 89, 98]\n\nOriginal values:\n[15, 60, 33, 43, 1, 81, 32, 34, 68, 89, 49, 97, 45, 98, 35, 76, 36]\n==\n[43, 97, 15, 60]",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert friend_ids of the deleted ones match private_data.to_unfriend_venmo_user_ids (ignore_order)",
+            "trace": "```python\nwith test(\n    \"\"\"\n    assert friend_ids of the deleted ones match private_data.to_unfriend_venmo_user_ids (ignore_order)\n    \"\"\"\n):\n    deleted_friend_ids = list_of(deleted_friendships, \"friend_id\")\n    test.case(\n        deleted_friend_ids, \"==\", private_data.to_unfriend_venmo_user_ids, ignore_order=True\n```\n----------\nAssertionError:  [] == [9, 16, 28, 71, 85, 100]\n\nIn right but not left:\n[9, 16, 28, 71, 85, 100]\n\nOriginal values:\n[] == [16, 85, 9, 71, 100, 28]",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert all main_user's friends on venmo match\nprivate_data.all_friends_venmo_user_ids in the end state (ignore_order)",
+            "trace": "```python\nwith test(\n    \"\"\"\n    assert all main_user's friends on venmo match\n    private_data.all_friends_venmo_user_ids in the end state (ignore_order)\n    \"\"\"\n):\n    venmo_user = models.end.venmo.User.find_from(main_user)\n    venmo_friend_ids = list_of(venmo_user.friends, \"id\")\n```\n----------\nAssertionError:\n[1, 9, 15, 16, 28, 29, 32, 33, 34, 35, 36, 43, 45, 49, 58, 60, 68, 71, 72, 76, 81, 85, 86, 89, 97, 98, 100]\n==\n[15, 29, 43, 58, 60, 72, 86, 97]\n\nIn left but not right:\n[1, 9, 16, 28, 32, 33, 34, 35, 36, 45, 49, 68, 71, 76, 81, 85, 89, 98, 100]\n\nOriginal values:\n[58, 72, 29, 86, 16, 85, 9, 71, 100, 28, 45, 33, 32, 35, 68, 97, 36, 76, 15, 60, 43, 81, 34, 49, 89, 98, 1]\n==\n[58, 72, 29, 86, 43, 97, 15, 60]",
+            "label": "no_op_fail"
+          }
+        ]
+      },
+      "3d9a636_2": {
+        "success": true,
+        "difficulty": 2,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match venmo.Friendship",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, deleted friendships using models.changed_records\nand assert friend_ids of the added ones match private_data.to_befriend_venmo_user_ids (ignore_order)",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert friend_ids of the deleted ones match private_data.to_unfriend_venmo_user_ids (ignore_order)",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert all main_user's friends on venmo match\nprivate_data.all_friends_venmo_user_ids in the end state (ignore_order)",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "3d9a636_3": {
+        "success": true,
+        "difficulty": 2,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match venmo.Friendship",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, deleted friendships using models.changed_records\nand assert friend_ids of the added ones match private_data.to_befriend_venmo_user_ids (ignore_order)",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert friend_ids of the deleted ones match private_data.to_unfriend_venmo_user_ids (ignore_order)",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert all main_user's friends on venmo match\nprivate_data.all_friends_venmo_user_ids in the end state (ignore_order)",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "634f342_1": {
+        "success": true,
+        "difficulty": 2,
+        "num_tests": 7,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.Playlist, spotify.PlaylistSong.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, deleted spotify.Playlist records using models.changed_records,\nand assert 1 has been added, 0 have been updated or deleted.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert the added playlist's title is public_data.playlist_title.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, deleted spotify.PlaylistSong records using models.changed_records,\nand assert set of added song ids match to set of private_data.to_archive_song_ids.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert set of deleted song ids also match to set of private_data.to_archive_song_ids.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert playlist_id_to_song_ids of deleted_playlist_songs match\nprivate_data.to_archive_playlist_id_to_song_ids (ignore_order)",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "634f342_2": {
+        "success": true,
+        "difficulty": 2,
+        "num_tests": 7,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.Playlist, spotify.PlaylistSong.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, deleted spotify.Playlist records using models.changed_records,\nand assert 1 has been added, 0 have been updated or deleted.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert the added playlist's title is public_data.playlist_title.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, deleted spotify.PlaylistSong records using models.changed_records,\nand assert set of added song ids match to set of private_data.to_archive_song_ids.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert set of deleted song ids also match to set of private_data.to_archive_song_ids.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert playlist_id_to_song_ids of deleted_playlist_songs match\nprivate_data.to_archive_playlist_id_to_song_ids (ignore_order)",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "634f342_3": {
+        "success": true,
+        "difficulty": 2,
+        "num_tests": 7,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.Playlist, spotify.PlaylistSong.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, deleted spotify.Playlist records using models.changed_records,\nand assert 1 has been added, 0 have been updated or deleted.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert the added playlist's title is public_data.playlist_title.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, deleted spotify.PlaylistSong records using models.changed_records,\nand assert set of added song ids match to set of private_data.to_archive_song_ids.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert set of deleted song ids also match to set of private_data.to_archive_song_ids.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert playlist_id_to_song_ids of deleted_playlist_songs match\nprivate_data.to_archive_playlist_id_to_song_ids (ignore_order)",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "8749218_1": {
+        "success": true,
+        "difficulty": 2,
+        "num_tests": 6,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.MusicPlayer.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, removed spotify.MusicPlayer records using models.changed_records,\nand assert 0 have been added or removed.",
+            "label": "no_op_pass"
+          },
+          {
+            "requirement": "assert the updated music player is in the playing state.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert set of song_ids in the queue of the updated music player\nis identical to private_data.recommendation_song_ids.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert the order of song_ids in the queue of the updated music player\nis not identical or reverse to the order of private_data.recommendation_song_ids.",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "8749218_2": {
+        "success": true,
+        "difficulty": 2,
+        "num_tests": 6,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.MusicPlayer.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, removed spotify.MusicPlayer records using models.changed_records,\nand assert 0 have been added or removed.",
+            "label": "no_op_pass"
+          },
+          {
+            "requirement": "assert the updated music player is in the playing state.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert set of song_ids in the queue of the updated music player\nis identical to private_data.recommendation_song_ids.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert the order of song_ids in the queue of the updated music player\nis not identical or reverse to the order of private_data.recommendation_song_ids.",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "fd1f8fa_1": {
+        "success": true,
+        "difficulty": 1,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.MusicPlayer.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, removed spotify.MusicPlayer records using models.changed_records,\nand assert 1 has been updated, and 0 have been added or removed.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert song_ids in the end state of the music player's queue match\nprivate_data.expected_queue_song_ids, ignoring order.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert music player is in playing state.",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "fd1f8fa_2": {
+        "success": true,
+        "difficulty": 1,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.MusicPlayer.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, removed spotify.MusicPlayer records using models.changed_records,\nand assert 1 has been updated, and 0 have been added or removed.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert song_ids in the end state of the music player's queue match\nprivate_data.expected_queue_song_ids, ignoring order.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert music player is in playing state.",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      },
+      "fd1f8fa_3": {
+        "success": true,
+        "difficulty": 1,
+        "num_tests": 5,
+        "passes": [
+          {
+            "requirement": "assert answers match.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert model changes match spotify.MusicPlayer.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "obtain added, updated, removed spotify.MusicPlayer records using models.changed_records,\nand assert 1 has been updated, and 0 have been added or removed.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert song_ids in the end state of the music player's queue match\nprivate_data.expected_queue_song_ids, ignoring order.",
+            "label": "no_op_fail"
+          },
+          {
+            "requirement": "assert music player is in playing state.",
+            "label": "no_op_fail"
+          }
+        ],
+        "failures": []
+      }
+    }
+  }
+}

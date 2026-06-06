@@ -25,7 +25,7 @@ image*.png.bak
 
 # ---- keep ONLY the submission experiment outputs (+ drop bulky trajectory dumps) ----
 experiments/outputs/*
-!experiments/outputs/team_helix/
+!experiments/outputs/team_*/
 reports/*/trajectories/
 
 # the hackathon harness is cloned separately; keep our agent.py copy only

@@ -1,0 +1,33 @@
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "venmo"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "venmo", "api_name": "login"}}
+{"method": "post", "url": "/venmo/auth/token", "data": {"username": "anita.burch@gmail.com", "password": "UIK!=rI"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "venmo"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "venmo"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "venmo", "api_name": "show_my_friends"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "venmo", "api_name": "login"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "phone", "api_name": "login"}}
+{"method": "post", "url": "/venmo/auth/token", "data": {"username": "anita.burch@gmail.com", "password": "UIK!=rI"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3643463570", "password": "wvIIPNe"}}
+{"method": "post", "url": "/venmo/auth/token", "data": {"username": "anita.burch@gmail.com", "password": "UIK!=rI"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3643463570", "password": "wvIIPNe"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "venmo"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "venmo", "api_name": "search_friends"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "post", "url": "/venmo/auth/token", "data": {"username": "anita.burch@gmail.com", "password": "UIK!=rI"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3643463570", "password": "wvIIPNe"}}
+{"method": "get", "url": "/venmo/friends", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2ZW5tbythbml0YS5idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI1MTZ9.TpTxx0pSIjziXJot8jlQ6MzMOI4gaYUSD1mvtpQJQYU"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszNjQzNDYzNTcwIiwiZXhwIjoxNjg0NDEyNjg3fQ.ewvwADGQd7H6RR_yvFMC4ANDINLXfDh8-xiYLikSHw4"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "venmo", "api_name": "add_friend"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "venmo", "api_name": "remove_friend"}}
+{"method": "post", "url": "/venmo/auth/token", "data": {"username": "anita.burch@gmail.com", "password": "UIK!=rI"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3643463570", "password": "wvIIPNe"}}
+{"method": "get", "url": "/venmo/friends", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2ZW5tbythbml0YS5idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI4Mzh9.7baX5F5LDvjEAByS7wZ71hsp1fPjGftGmF2Mmjva1dk"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszNjQzNDYzNTcwIiwiZXhwIjoxNjg0NDEyMDI1fQ.XHyqQ9_y6l6AUjyFDfIc31SWRFllosQP0MlXjGgCOdE"}}
+{"method": "post", "url": "/venmo/friends/{user_email}", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2ZW5tbythbml0YS5idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI4Mzh9.7baX5F5LDvjEAByS7wZ71hsp1fPjGftGmF2Mmjva1dk", "email": "ch-burch@gmail.com"}}
