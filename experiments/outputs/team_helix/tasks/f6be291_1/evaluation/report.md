@@ -36,15 +36,15 @@ amazon.Address.
 ```
 ----------
 AssertionError:
-{'file_system.Directory', 'file_system.File', 'gmail.Attachment'}
+{'file_system.Directory', 'gmail.Attachment', 'file_system.File'}
 ==
-{'gmail.GlobalEmailThread', 'amazon.Order', 'file_system.File',
-'gmail.UserEmailThread', 'gmail.Attachment', 'gmail.Email', 'amazon.OrderItem',
-'amazon.Product', 'file_system.Directory'}
+{'amazon.OrderItem', 'gmail.UserEmailThread', 'amazon.Order',
+'gmail.Attachment', 'file_system.File', 'gmail.Email',
+'gmail.GlobalEmailThread', 'amazon.Product', 'file_system.Directory'}
 
 In right but not left:
-['gmail.GlobalEmailThread', 'amazon.Order', 'gmail.UserEmailThread',
-'gmail.Email', 'amazon.OrderItem', 'amazon.Product']
+['amazon.OrderItem', 'gmail.UserEmailThread', 'amazon.Order', 'gmail.Email',
+'gmail.GlobalEmailThread', 'amazon.Product']
 >> Failed Requirement
 assert 1 record has been added to amazon.Order using models.changed_records.
 ```python

@@ -104,3 +104,25 @@
 {"method": "get", "url": "/api_docs/api_docs", "data": {"query": "show_payment_methods"}}
 {"method": "get", "url": "/api_docs/api_docs", "data": {"query": "payment_methods"}}
 {"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "payment_methods", "app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_docs", "data": {"query": "payment", "app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chelsea-burch@gmail.com", "password": "sQW-!iq"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNTd9.JP95LdIRrGdZekptTl2D8KTd-YZdUSFHEi__k-RaKDM"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "show_order_history"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "show_orders"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "checkout"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "purchase"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "show_addresses"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "show_payment_methods"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "place_order"}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNTd9.JP95LdIRrGdZekptTl2D8KTd-YZdUSFHEi__k-RaKDM", "page_limit": 20}}
+{"method": "get", "url": "/amazon/products/1406", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNTd9.JP95LdIRrGdZekptTl2D8KTd-YZdUSFHEi__k-RaKDM"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "add_to_cart"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "add_product_to_cart"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "place_order"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}

@@ -38,9 +38,16 @@ Deep dive in [`ARCHITECTURE.md`](ARCHITECTURE.md).
 The official ReAct baseline on AppWorld test_normal is **48.8 TGC** — **Sonnet 4.6 + HELIX hits
 80% on a 10-task test_normal sample**, well above it (and ~5× cheaper than Opus).
 
-**Official eval set (`agent_arena_eval`, 10 hard challenge tasks):** run via the harness; the
-Llama 3.3 70B run is the open-model baseline (~floors out on the hard tier). Run Sonnet/Opus on
-it for the submission number.
+**Official eval set (`agent_arena_eval`, 10 hard challenge tasks):**
+
+| run | model | tasks | **TGC / SGC** |
+|---|---|---|---|
+| `team_helix` | Llama 3.3 70B (OpenRouter) | 10 | **20% / 20%** (2/10) |
+
+Llama 70B is the open-model baseline — it floors out on the hard `test_challenge` tier (3 easy /
+3 medium / 4 hard). For a competitive submission, run **Sonnet/Opus** on the same set (the scaffold
+got 80% on a test_normal sample with Sonnet). Outputs + `evaluations/agent_arena_eval.json` are in
+`experiments/outputs/team_helix/`.
 
 **Wider benchmarks (Opus 4.8, full stack + HydraDB):**
 

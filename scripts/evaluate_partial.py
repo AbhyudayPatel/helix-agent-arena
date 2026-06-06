@@ -27,12 +27,12 @@ def main() -> int:
     task_ids = sorted(p.name for p in tasks_dir.iterdir() if p.is_dir())
     print(f"evaluating {len(task_ids)} run tasks for {exp} / {split} ...")
 
-    tracker = evaluate_tasks(task_ids=task_ids, experiment_name=exp, suppress_errors=True)
-    # build the aggregate json (per-task pass/fail + overall TGC)
-    try:
+    agg = {}
+    try:  # batch re-eval is nice-to-have; it can crash on Windows, so don't hard-depend on it
+        tracker = evaluate_tasks(task_ids=task_ids, experiment_name=exp, suppress_errors=True)
         agg = tracker.to_dict() if hasattr(tracker, "to_dict") else dict(tracker)
-    except Exception:
-        agg = {}
+    except Exception as e:  # noqa: BLE001
+        print(f"(batch evaluate skipped: {repr(e)[:120]}); using per-task reports")
     def _solved(t: str) -> bool:
         rp = Path("experiments/outputs") / exp / "tasks" / t / "evaluation" / "report.md"
         if not rp.exists():
