@@ -52,3 +52,97 @@
 {"method": "get", "url": "/gmail/emails/20872", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI0OTh9.Z3ojsBN5_Q4H4baXgCxEaj6vNNHfr5_M_MlgdH1Saz8"}}
 {"method": "get", "url": "/gmail/emails/20874", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI0OTh9.Z3ojsBN5_Q4H4baXgCxEaj6vNNHfr5_M_MlgdH1Saz8"}}
 {"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_attachment"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "splitwise"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "login"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "post", "url": "/splitwise/auth/token", "data": {"username": "carbrown@gmail.com", "password": "F{Q8_pw"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "create_expense"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "splitwise"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "login"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "carbrown@gmail.com", "password": "#x}}5n5"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "carbrown@gmail.com", "password": "#x}}5n5"}}
+{"method": "post", "url": "/splitwise/auth/token", "data": {"username": "carbrown@gmail.com", "password": "F{Q8_pw"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_inbox_threads"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "create_expense"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "splitwise"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "record_expense"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "download_expense_receipt_file"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "attach_expense_receipt_file"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "delete_expense_receipt_file"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "show_expense"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "delete_expense"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "update_expense"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "show_group_expenses"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "show_no_group_expenses"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "undelete_expense"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "show_expense_comments"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "post_expense_comment"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "show_expense_comment"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "delete_expense_comment"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "update_expense_comment"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "show_inbox_threads"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "record_expense"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "carbrown@gmail.com", "password": "#x}}5n5"}}
+{"method": "post", "url": "/splitwise/auth/token", "data": {"username": "carbrown@gmail.com", "password": "F{Q8_pw"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI5MTZ9.wFXoVD4k_5PQ0Mzle2xgIBJjtWeVmqx5HLDJjGPNwkw", "query": "cable"}}
+{"method": "get", "url": "/gmail/emails/20869", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI5MTZ9.wFXoVD4k_5PQ0Mzle2xgIBJjtWeVmqx5HLDJjGPNwkw"}}
+{"method": "get", "url": "/splitwise/groups", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGxpdHdpc2UrY2FyYnJvd25AZ21haWwuY29tIiwiZXhwIjoxNjg5NjgzMDg3fQ.tsV6jD7f61h8Bs6-y3iDGJ-YmVv_XqM9hRisHDOgzpM"}}
+{"method": "post", "url": "/splitwise/expenses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGxpdHdpc2UrY2FyYnJvd25AZ21haWwuY29tIiwiZXhwIjoxNjg5NjgzMDg3fQ.tsV6jD7f61h8Bs6-y3iDGJ-YmVv_XqM9hRisHDOgzpM", "group_id": 236, "description": "Cable bill", "paid_amount": null}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "record_expense"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "carbrown@gmail.com", "password": "#x}}5n5"}}
+{"method": "post", "url": "/splitwise/auth/token", "data": {"username": "carbrown@gmail.com", "password": "F{Q8_pw"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMyMzh9.Fx4BSB_h_YvAxxDsm1oELlp8oWSfd58kyNERNsif9Ek", "query": "cable"}}
+{"method": "get", "url": "/gmail/emails/20869", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMyMzh9.Fx4BSB_h_YvAxxDsm1oELlp8oWSfd58kyNERNsif9Ek"}}
+{"method": "get", "url": "/splitwise/groups", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGxpdHdpc2UrY2FyYnJvd25AZ21haWwuY29tIiwiZXhwIjoxNjg5NjgyNDI1fQ.1o5rjspW9CegKC5E5Ezlr33QD7w3mWhiYt-cYsc26F8"}}
+{"method": "get", "url": "/splitwise/groups/236", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGxpdHdpc2UrY2FyYnJvd25AZ21haWwuY29tIiwiZXhwIjoxNjg5NjgyNDI1fQ.1o5rjspW9CegKC5E5Ezlr33QD7w3mWhiYt-cYsc26F8"}}
+{"method": "post", "url": "/splitwise/expenses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGxpdHdpc2UrY2FyYnJvd25AZ21haWwuY29tIiwiZXhwIjoxNjg5NjgyNDI1fQ.1o5rjspW9CegKC5E5Ezlr33QD7w3mWhiYt-cYsc26F8", "group_id": 236, "description": "Cable bill", "paid_amount": null, "payer_email": "carbrown@gmail.com", "debtor_emails": ["gl.moore@gmail.com", "carbrown@gmail.com", "andrew_brow@gmail.com"]}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "Unable to create expenses in Splitwise"}}
+{"method": "get", "url": "/supervisor/active_task", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "carbrown@gmail.com", "password": "#x}}5n5"}}
+{"method": "post", "url": "/splitwise/auth/token", "data": {"username": "carbrown@gmail.com", "password": "F{Q8_pw"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMyOTF9.sYxDdv1rU7NHOb1uODjD9tIhAtI3c1ng3JJEhww6VGo", "query": "cable"}}
+{"method": "get", "url": "/gmail/emails/20869", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMyOTF9.sYxDdv1rU7NHOb1uODjD9tIhAtI3c1ng3JJEhww6VGo"}}
+{"method": "get", "url": "/gmail/emails/20872", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMyOTF9.sYxDdv1rU7NHOb1uODjD9tIhAtI3c1ng3JJEhww6VGo"}}
+{"method": "get", "url": "/gmail/emails/20875", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMyOTF9.sYxDdv1rU7NHOb1uODjD9tIhAtI3c1ng3JJEhww6VGo"}}
+{"method": "get", "url": "/gmail/emails/20878", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMyOTF9.sYxDdv1rU7NHOb1uODjD9tIhAtI3c1ng3JJEhww6VGo"}}
+{"method": "get", "url": "/gmail/emails/20881", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMyOTF9.sYxDdv1rU7NHOb1uODjD9tIhAtI3c1ng3JJEhww6VGo"}}
+{"method": "get", "url": "/splitwise/groups", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGxpdHdpc2UrY2FyYnJvd25AZ21haWwuY29tIiwiZXhwIjoxNjg5NjgyNDQ4fQ.na_lF4GAr3fxhY4DcuQorz61rusMIxu_i7NQmcrVxOM"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "splitwise", "api_name": "record_expense"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "carbrown@gmail.com", "password": "#x}}5n5"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODIzNjR9.3eCAoC6OWAdVNcxxosp_VL6ItvszVFRMQlI_IO7TzmU", "query": "cable"}}
+{"method": "get", "url": "/gmail/emails/20869", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODIzNjR9.3eCAoC6OWAdVNcxxosp_VL6ItvszVFRMQlI_IO7TzmU"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/profile", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "carbrown@gmail.com", "password": "#x}}5n5"}}
+{"method": "post", "url": "/splitwise/auth/token", "data": {"username": "carbrown@gmail.com", "password": "F{Q8_pw"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI3Mzl9.3_Dr655VUhEpaAR-xxMkRy058hIyaG7Ez10Qi5AlmrI", "query": "cable"}}
+{"method": "get", "url": "/gmail/emails/20869", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI3Mzl9.3_Dr655VUhEpaAR-xxMkRy058hIyaG7Ez10Qi5AlmrI"}}
+{"method": "get", "url": "/splitwise/groups", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGxpdHdpc2UrY2FyYnJvd25AZ21haWwuY29tIiwiZXhwIjoxNjg5NjgyMjk4fQ.tjdwHgypPrnPujQcgF4jmHY9dyZGO1oFyp6liMxPZew"}}
+{"method": "post", "url": "/splitwise/expenses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGxpdHdpc2UrY2FyYnJvd25AZ21haWwuY29tIiwiZXhwIjoxNjg5NjgyMjk4fQ.tjdwHgypPrnPujQcgF4jmHY9dyZGO1oFyp6liMxPZew", "group_id": 236, "description": "Cable bill", "paid_amount": 100.0, "payer_email": "carbrown@gmail.com", "debtor_emails": ["carbrown@gmail.com"]}}

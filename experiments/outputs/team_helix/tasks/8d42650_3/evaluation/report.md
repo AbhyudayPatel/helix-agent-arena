@@ -25,7 +25,7 @@ with test(
     test.answer(predicted_answer, ground_truth_answer)
 ```
 ----------
-AssertionError:  '<<not_given>>' == 'null'
+AssertionError:  'unable to create expenses in splitwise' == 'null'
 >> Failed Requirement
 assert model changes match splitwise.Expense, splitwise.ExpenseShare,
 splitwise.Notification,
@@ -45,12 +45,12 @@ splitwise.Notification,
 AssertionError:
 set()
 ==
-{'splitwise.Notification', 'splitwise.ExpenseShare', 'splitwise.Expense',
-'gmail.Attachment'}
+{'splitwise.ExpenseShare', 'splitwise.Expense', 'gmail.Attachment',
+'splitwise.Notification'}
 
 In right but not left:
-['splitwise.Notification', 'splitwise.ExpenseShare', 'splitwise.Expense',
-'gmail.Attachment']
+['splitwise.ExpenseShare', 'splitwise.Expense', 'gmail.Attachment',
+'splitwise.Notification']
 >> Failed Requirement
 assert all added expenses have group_id matching private_data.group_id.
 ```python
